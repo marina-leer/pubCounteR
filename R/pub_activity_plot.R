@@ -3,6 +3,8 @@
 # generate multifigure with linear und logarithmic barplot
 # plots on the currently open device
 lin_log_barplot <- function(countlist, title){
+  oldpar <- par(no.readonly = TRUE)
+  on.exit(par(oldpar))
   par(mfrow=c(1,2))
   bp1 <- barplot(unlist(countlist), main="linear",
                  xlab= title, horiz = TRUE,
@@ -10,7 +12,7 @@ lin_log_barplot <- function(countlist, title){
                  col=c("#e0e0e0"),
                  las=1,
                  #xaxt='n',
-                 cex.names = 1, xlim = c(0,(max(unlist(countlist))*1.3)))
+                 cex.names = 1.2, xlim = c(0,(max(unlist(countlist))*1.3)))
   text(unlist(countlist)+10, bp1, labels = unlist(countlist), pos=4)
 
   x_max <- max(log10(unlist(countlist)+1))*1.3
@@ -20,7 +22,9 @@ lin_log_barplot <- function(countlist, title){
                  col=c("#e0e0e0"),
                  xaxt='n',
                  las=1,
-                 cex.names = 1, xlim = c(0,x_max))
+                 cex.names = 1.2, xlim = c(0,x_max))
+  old <- options()
+  on.exit(options(old))
   options(scipen=5)
   axis(1,at=seq(0,x_max),labels = 10^seq(0,x_max))
   text(log10(unlist(countlist)+1)+0.01, bp2, labels = unlist(countlist), pos=4)
@@ -39,6 +43,7 @@ lin_log_barplot <- function(countlist, title){
 #' @param output_dir path to output directory to save resulting csv and png, NULL for not saving.
 #' @param use_preloaded_gene_names boolean: whether to use preloaded gene names (TRUE) or
 #' load from biomaRt (FALSE)
+#' @param show_progressbar boolean: whether to show progress bar
 #' @return None
 #'
 #' @usage
@@ -47,7 +52,8 @@ lin_log_barplot <- function(countlist, title){
 #' k_list,
 #' species = "mouse",
 #' output_dir = NULL,
-#' use_preloaded_gene_names=TRUE
+#' use_preloaded_gene_names = TRUE,
+#' show_progressbar = FALSE
 #' )
 #'
 #' @import rentrez
@@ -61,19 +67,20 @@ lin_log_barplot <- function(countlist, title){
 #' gene_list_mouse  = c("Mbl1")
 #' keyword_list = c("stem cell")
 #' pub_activity_plot(g_list = gene_list_mouse, k_list = keyword_list,
-#' species = "mouse", output_dir=NULL, use_preloaded_gene_names=TRUE)
+#' species = "mouse", output_dir=NULL, use_preloaded_gene_names=TRUE,
+#' show_progressbar=FALSE)
 
 # using gene list and keyword set to run pubmed search with customized query and
 # generates a publication activity plot based on the results
 
 #' @export
 pub_activity_plot <- function(g_list, k_list, species="mouse",
-                              output_dir=NULL, use_preloaded_gene_names=TRUE){
+                              output_dir=NULL, use_preloaded_gene_names=TRUE, show_progressbar=FALSE){
   # check length of input lists
-  if(length(g_list) < 1) return("Gene list has to consists of at least 1 gene")
-  else if(length(g_list) > 30 && length(k_list >10)) return("Gene list and keyword list are too long, gene list has to be < 30 elements and keyword list hast to be < 10")
-  else if (length(g_list) > 30) return("Gene list is too long, it has to be <= 30 elements")
-  else if (length(k_list) > 10)  return("Keyword list is too long, it has to be <= 10 elements")
+  if(length(g_list) < 1) stop("Gene list has to consist of at least 1 gene")
+  else if(length(g_list) > 50 && length(k_list >10)) stop("Gene list and keyword list are too long, gene list has to be < 50 elements and keyword list hast to be < 10")
+  else if (length(g_list) > 50) stop("Gene list is too long, it has to be <= 50 elements")
+  else if (length(k_list) > 10)  stop("Keyword list is too long, it has to be <= 10 elements")
 
   if(use_preloaded_gene_names){
     if(species=="mouse"){ # "Mus musculus"
@@ -89,7 +96,7 @@ pub_activity_plot <- function(g_list, k_list, species="mouse",
       biomart_data<-human_official_gene_names
     }
     else{
-      return("available species: mouse or human")
+      stop("available species: mouse or human")
     }
   }else{
     # obtain official gene symbols from annotation database biomaRt depending on species
@@ -101,7 +108,7 @@ pub_activity_plot <- function(g_list, k_list, species="mouse",
       biomart_db <- "hsapiens_gene_ensembl"
       attribute <- "hgnc_symbol" # Official Symbol by HGNC
     }
-    else{return("available species: mouse or human")}
+    else{stop("available species: mouse or human")}
 
     ensembl <-useEnsembl(biomart = "ensembl",
                          dataset = biomart_db)
@@ -117,16 +124,20 @@ pub_activity_plot <- function(g_list, k_list, species="mouse",
       invalid <- append(invalid, gene)
     }
   }
-  message <- paste(length(invalid), "entrie(s) were not found:", paste(invalid, collapse = ", "), sep = " ")
-  if (length(invalid)== length(g_list)) return(message)
+  message <- paste(length(invalid), "entries were not found:", paste(invalid, collapse = ", "), sep = " ")
+  message2 <- paste("no entry was found")
+  if (length(invalid)== length(g_list)) stop(message2)
   else if (length(invalid)>0){
-    print(message)
+    warning(message)
     g_list <- g_list[!(g_list %in% invalid)]
   }
 
   # formating keywordset to a rentrez query
   queries <- paste("(",paste("(",k_list,")",sep="",collapse =" OR "),")",sep="")
+
+  if(show_progressbar){
   pb <- txtProgressBar(min = 0, max = length(g_list), width = 50 , style = 3)
+  }
 
   countlist <- list()
   publication_info_all <- c("Gene", "PubmedID", "Title")
@@ -144,18 +155,23 @@ pub_activity_plot <- function(g_list, k_list, species="mouse",
     # extract 100 recent publication IDs and titles if there are any
     if(search$count>0){
           publication_info <- entrez_summary(db="pubmed", id=search$ids)
-          gene_name <- data.frame(rep(gene,times= length(publication_info)))
+          gene_name <- data.frame(rep(gene,times= search$count))
           colnames(gene_name) <- c("gene")
           publication_info_gene <- cbind(gene_name,t(extract_from_esummary(publication_info, c("uid", "title"))))
           #print(head(publication_info_gene))
           publication_info_all <- rbind(publication_info_all, publication_info_gene)
     }
 
-    counter = counter+1
     Sys.sleep(0.33) # sleep_time should be at least (1/3) second because Entrez allows 3 requests per second
+
+    if(show_progressbar){
+    counter = counter+1
     setTxtProgressBar(pb, counter)
+    }
   }
+  if(show_progressbar){
   close(pb)
+    }
 
   if(!is.null(output_dir)){
     # prepare output directory
