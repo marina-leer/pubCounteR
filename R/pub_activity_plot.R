@@ -155,7 +155,12 @@ pub_activity_plot <- function(g_list, k_list, species="mouse",
     # extract 100 recent publication IDs and titles if there are any
     if(search$count>0){
           publication_info <- entrez_summary(db="pubmed", id=search$ids)
-          gene_name <- data.frame(rep(gene,times= search$count))
+          if(search$count > 100){
+            n_entries <- 100
+          }else{
+            n_entries <- search$count
+          }
+          gene_name <- data.frame(rep(gene,times=n_entries))
           colnames(gene_name) <- c("gene")
           publication_info_gene <- cbind(gene_name,t(extract_from_esummary(publication_info, c("uid", "title"))))
           #print(head(publication_info_gene))
