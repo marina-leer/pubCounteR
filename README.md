@@ -17,7 +17,7 @@ For a set of genes, using official gene symbols (Maltais et al. 2002) belonging 
 </p>
 
 <p align="justify">
-The returned hits, i.e. publications, are summarised for each gene separately and represented as a publication activity for as many as 30 genes. This will result in a barplot visualisation, that displays for every gene of interest the number of the detected publication activity, and exports the most recent individual 100 publications per gene in a csv file format.
+The returned hits, i.e. publications, are summarised for each gene separately and represented as a publication activity for as many as 50 genes. This will result in a barplot visualisation, that displays for every gene of interest the number of the detected publication activity, and exports the most recent individual 100 publications per gene in a csv file format.
 </p>
 
 <p align="justify">
@@ -66,8 +66,10 @@ g_list,
 k_list,
 species = "mouse",
 output_dir = "output",
-use_preloaded_gene_names=TRUE
+use_preloaded_gene_names=TRUE,
+show_progressbar = FALSE
 )
+
 ```
 
 ### Parameters
@@ -78,6 +80,7 @@ g_list: list of official gene symbols ≤ 30 elements
 species: selecting the species of interest, species="mouse" or species="human"
 output_dir: path to output directory to save resulting csv and png, NULL for not saving.
 use_preloaded_gene_names: boolean: whether to use preloaded gene names (TRUE) or load from biomaRt (FALSE)
+show_progressbar: boolean: whether to show progress bar
 ```
 <br>
 
