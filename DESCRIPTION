@@ -9,7 +9,7 @@ Authors@R: c(
       person("German Research Foundation", role = c("fnd")),
       person("German Ministry of Education and Research ", role = c("fnd")),
       person("State of Brandenburg", role = c("fnd")))
-Description: Visualising publication activity per gene based on a gene list and  a user-defined set of keywords utilising R 'rentrez' <https://cran.r-project.org/web/packages/rentrez/index.html> that provides 'NCBI' <https://www.ncbi.nlm.nih.gov> database search like in 'PubMed' <https://pubmed.ncbi.nlm.nih.gov>. It summarises the retrieved number of publications for each gene in an overview bar plot (saved as 'png' file) and by choice a summary table (as 'csv') that including the most recent 100 'PubMed' IDs and publication titles.
+Description: Visualising publication activity per gene based on a gene list and  a user-defined set of keywords utilising R 'rentrez' <https://cran.r-project.org/package=rentrez/> that provides 'NCBI' <https://www.ncbi.nlm.nih.gov> database search like in 'PubMed' <https://pubmed.ncbi.nlm.nih.gov>. It summarises the retrieved number of publications for each gene in an overview bar plot (saved as 'png' file) and by choice a summary table (as 'csv') that including the most recent 100 'PubMed' IDs and publication titles.
 License: GPL (>= 3)
 Depends: 
     R (>= 2.10)
