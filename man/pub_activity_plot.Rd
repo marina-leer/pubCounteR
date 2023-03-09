@@ -9,7 +9,8 @@ g_list,
 k_list,
 species = "mouse",
 output_dir = NULL,
-use_preloaded_gene_names=TRUE
+use_preloaded_gene_names = TRUE,
+show_progressbar = FALSE
 )
 }
 \arguments{
@@ -23,6 +24,8 @@ use_preloaded_gene_names=TRUE
 
 \item{use_preloaded_gene_names}{boolean: whether to use preloaded gene names (TRUE) or
 load from biomaRt (FALSE)}
+
+\item{show_progressbar}{boolean: whether to show progress bar}
 }
 \value{
 None
@@ -36,5 +39,6 @@ activity plot.
 gene_list_mouse  = c("Mbl1")
 keyword_list = c("stem cell")
 pub_activity_plot(g_list = gene_list_mouse, k_list = keyword_list,
-species = "mouse", output_dir=NULL, use_preloaded_gene_names=TRUE)
+species = "mouse", output_dir=NULL, use_preloaded_gene_names=TRUE,
+show_progressbar=FALSE)
 }
