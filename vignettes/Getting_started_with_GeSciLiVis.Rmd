@@ -31,6 +31,9 @@ For a set of genes, using official gene symbols (Maltais et al. 2002) belonging 
 The returned hits, i.e. publications, are summarised for each gene separately and represented as a publication activity for as many as 50 genes. This will result in a barplot visualisation, that displays for every gene of interest the number of the detected publication activity, and exports the most recent individual 100 publications per gene in a csv file format.
 </p>
 
+<p align="justify">
+Thus, we present a novel literature identification strategy that quickly surveys the published literature available research on entire gene lists, for individual genes, in conjunction with a specific biological interest. This allows investigators to identify gaps in knowledge through little-researched genes that could be putative novel targets for diverse biological fields of research, and to deliver an accurate overview and the most recent related work for any list of genes of interest. 
+</p>
 
 ## References
 <p align="justify">
@@ -86,7 +89,8 @@ g_list,
 k_list,
 species = "mouse",
 output_dir = "output",
-use_preloaded_gene_names=TRUE
+use_preloaded_gene_names=TRUE,
+show_progressbar = FALSE
 )
 ```
 
