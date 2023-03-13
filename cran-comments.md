@@ -1,7 +1,7 @@
 
 
 ## Resubmission 
-This is a re-submission. In response to review of GeSciLiVis v1.0.0 by Benjamin Altmann I have fixed: 
+This is a re-submission. In response to review of GeSciLiVis v1.0.0 by Benjamin Altmann I have fixed:
 - adding references in the description field of your DESCRIPTION file
 - information messages not directly printed to the console 
 (instead of print()/cat() rather use message()/warning() or
