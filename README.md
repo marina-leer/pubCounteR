@@ -7,6 +7,7 @@
 [![metacran downloads](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)
 
 [![metacran downloads](https://cranlogs.r-pkg.org/badges/month/GeSciLiVis)](https://cran.r-project.org/package=GeSciLiVis)
+[![metacran downloads](https://cranlogs.r-pkg.org/badges/month/GeSciLiVis)](https://cran.r-project.org/package=GeSciLiVis)
 
 
 <p align="justify">
