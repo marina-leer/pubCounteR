@@ -44,11 +44,16 @@ Winter, D. J. (2017). rentrez: An R package for the NCBI eUtils API. The R Journ
 
 ### Installation
 
+Get the released version from CRAN:
+```r
+install.packages("GeSciLiVis")
+```
+
 Installation of the development version from GitHub:
 ```r
 if (!requireNamespace("devtools", quietly = TRUE)) {
-    install.packages("devtools")
-}
+    install.packages("devtools")}
+	
 install_github("marina-leer/GeSciLiVis")
 devtools::install_github("marina-leer/GeSciLiVis")
 ```
