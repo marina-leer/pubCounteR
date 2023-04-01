@@ -3,11 +3,9 @@
  
  <!-- badges -->
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
-
 [![metacran downloads](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)
+[![metacran downloads](https://cranlogs.r-pkg.org/badges/last-month/GeSciLiVis)](https://cran.r-project.org/package=GeSciLiVis)
 
-[![metacran downloads](https://cranlogs.r-pkg.org/badges/month/GeSciLiVis)](https://cran.r-project.org/package=GeSciLiVis)
-[![metacran downloads](https://cranlogs.r-pkg.org/badges/month/GeSciLiVis)](https://cran.r-project.org/package=GeSciLiVis)
 
 
 <p align="justify">
