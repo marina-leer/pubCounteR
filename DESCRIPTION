@@ -15,7 +15,6 @@ Depends:
     R (>= 2.10)
 Imports: 
     rentrez (>= 1.2.3),
-    biomaRt (>= 2.54.0),
     biomartr (>= 1.0.2),
     grDevices (>= 4.2.2),
     graphics (>= 4.2.2),

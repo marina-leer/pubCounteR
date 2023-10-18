@@ -41,8 +41,6 @@ lin_log_barplot <- function(countlist, title){
 #' @param k_list list of keywords <= 10 elements.
 #' @param species selecting the species of interest (species="mouse" or species="human").
 #' @param output_dir path to output directory to save resulting csv and png, NULL for not saving.
-#' @param use_preloaded_gene_names boolean: whether to use preloaded gene names (TRUE) or
-#' load from biomaRt (FALSE)
 #' @param show_progressbar boolean: whether to show progress bar
 #' @return None
 #'
@@ -52,13 +50,11 @@ lin_log_barplot <- function(countlist, title){
 #' k_list,
 #' species = "mouse",
 #' output_dir = NULL,
-#' use_preloaded_gene_names = TRUE,
 #' show_progressbar = FALSE
 #' )
 #'
 #' @import rentrez
 #' @import biomartr
-#' @import biomaRt
 #' @import grDevices
 #' @import graphics
 #' @import utils
@@ -67,7 +63,7 @@ lin_log_barplot <- function(countlist, title){
 #' gene_list_mouse  = c("Mbl1")
 #' keyword_list = c("stem cell")
 #' pub_activity_plot(g_list = gene_list_mouse, k_list = keyword_list,
-#' species = "mouse", output_dir=NULL, use_preloaded_gene_names=TRUE,
+#' species = "mouse", output_dir=NULL,
 #' show_progressbar=FALSE)
 
 # using gene list and keyword set to run pubmed search with customized query and
@@ -75,14 +71,14 @@ lin_log_barplot <- function(countlist, title){
 
 #' @export
 pub_activity_plot <- function(g_list, k_list, species="mouse",
-                              output_dir=NULL, use_preloaded_gene_names=TRUE, show_progressbar=FALSE){
+                              output_dir=NULL, show_progressbar=FALSE){
   # check length of input lists
   if(length(g_list) < 1) stop("Gene list has to consist of at least 1 gene")
   else if(length(g_list) > 50 && length(k_list >10)) stop("Gene list and keyword list are too long, gene list has to be < 50 elements and keyword list hast to be < 10")
   else if (length(g_list) > 50) stop("Gene list is too long, it has to be <= 50 elements")
   else if (length(k_list) > 10)  stop("Keyword list is too long, it has to be <= 10 elements")
 
-  if(use_preloaded_gene_names){
+  # if(use_preloaded_gene_names){
     if(species=="mouse"){ # "Mus musculus"
       mouse_official_gene_names <-""
       data("mouse_official_gene_names", package = "GeSciLiVis",envir = environment())
@@ -98,24 +94,24 @@ pub_activity_plot <- function(g_list, k_list, species="mouse",
     else{
       stop("available species: mouse or human")
     }
-  }else{
-    # obtain official gene symbols from annotation database biomaRt depending on species
-    if(species=="mouse"){ # "Mus musculus"
-      biomart_db <- "mmusculus_gene_ensembl"
-      attribute <- "mgi_symbol" # Official Symbol by MGNC
-    }
-    else if(species=="human"){ #"Homo sapiens"
-      biomart_db <- "hsapiens_gene_ensembl"
-      attribute <- "hgnc_symbol" # Official Symbol by HGNC
-    }
-    else{stop("available species: mouse or human")}
-
-    ensembl <-useEnsembl(biomart = "ensembl",
-                         dataset = biomart_db)
-    biomart_data <- getBM(attributes = attribute,
-                          mart = ensembl)
-    colnames(biomart_data) <- c("symbol")
-  }
+  # }else{
+  #   # obtain official gene symbols from annotation database biomaRt depending on species
+  #   if(species=="mouse"){ # "Mus musculus"
+  #     biomart_db <- "mmusculus_gene_ensembl"
+  #     attribute <- "mgi_symbol" # Official Symbol by MGNC
+  #   }
+  #   else if(species=="human"){ #"Homo sapiens"
+  #     biomart_db <- "hsapiens_gene_ensembl"
+  #     attribute <- "hgnc_symbol" # Official Symbol by HGNC
+  #   }
+  #   else{stop("available species: mouse or human")}
+  #
+  #   ensembl <-useEnsembl(biomart = "ensembl",
+  #                        dataset = biomart_db)
+  #   biomart_data <- getBM(attributes = attribute,
+  #                         mart = ensembl)
+  #   colnames(biomart_data) <- c("symbol")
+  # }
 
   # to check the gene list of genes if they are official gene symbols(valid)
   invalid <- list()

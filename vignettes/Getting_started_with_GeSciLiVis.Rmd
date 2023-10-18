@@ -74,7 +74,6 @@ devtools::install_github("marina-leer/GeSciLiVis")
 ### Requirements
 GeSciLiVis requires the following external dependencies (R packages):
 - rentrez (>= 1.2.3)
-- biomaRt (>= 2.54.0)
 - biomartr (>= 1.0.2)
 - grDevices (>= 4.2.2)
 - graphics (>= 4.2.2)
@@ -89,7 +88,6 @@ g_list,
 k_list,
 species = "mouse",
 output_dir = "output",
-use_preloaded_gene_names=TRUE,
 show_progressbar = FALSE
 )
 ```
@@ -101,7 +99,6 @@ k_list: list of keywords ≤ 10 elements
 g_list: list of official gene symbols ≤ 50 elements
 species: selecting the species of interest, species="mouse" or species="human"
 output_dir: path to output directory to save resulting csv and png, NULL for not saving.
-use_preloaded_gene_names: boolean: whether to use preloaded gene names (TRUE) or load from biomaRt (FALSE)
 show_progressbar: boolean: whether to show progress bar
 ```
 <br>
@@ -124,7 +121,7 @@ In the first example a set of genes derived from mouse experiments were used.
 ```r
 gene_list_mouse  = c("Cxcl12", "Fos", "Lect1", "Lepr", "Vcam1", "Fosb")
 
-pub_activity_plot(g_list = gene_list_mouse, k_list = keyword_list, species = "mouse", output_dir="output", use_preloaded_gene_names=TRUE)
+pub_activity_plot(g_list = gene_list_mouse, k_list = keyword_list, species = "mouse", output_dir="output")
 ```
 ![Running GeSciLiVis with mouse gene set](Example_1_mouse.png){width=50%}
 
@@ -133,6 +130,6 @@ In the second example a set of human genes were used as input.
 ```r
 gene_list_human = c("LEPR", "KITL", "OSMR", "IL1RN", "FGF2", "COL2A1")
 
-pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", use_preloaded_gene_names=TRUE)
+pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output")
 ```
 ![Running GeSciLiVis with human gene set](Example_2_human.png){width=50%}
