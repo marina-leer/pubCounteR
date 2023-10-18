@@ -1,7 +1,10 @@
 
+## Resubmission
+This is a re-submission. In response to a notification of GeSciLiVis v1.1.0 by Prof Brian Ripley I have changed:
+- removed unstable dependency
 
-## Resubmission 
-This is a re-submission. In response to review of GeSciLiVis v1.0.0 by Benjamin Altmann I have fixed:
+## Previous cran-comments
+In response to review of GeSciLiVis v1.0.0 by Benjamin Altmann I have fixed:
 - adding references in the description field of your DESCRIPTION file
 - information messages not directly printed to the console 
 (instead of print()/cat() rather use message()/warning() or
