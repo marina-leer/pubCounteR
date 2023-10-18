@@ -1,7 +1,7 @@
 Type: Package
 Package: GeSciLiVis
 Title: Gene-Based Publication Activity Visualiser
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: c(
       person("Marina","Leer",email="marina.leer@dife.de",role = c("aut", "cre","cph"), comment = c(ORCID="0000-0002-8714-2807")),
       person("George", "Soultoukis", role = c("ctb"), comment = c(ORCID="0000-0002-7290-1444")),
