@@ -1,5 +1,9 @@
 
 ## Resubmission
+This is a re-submission. In response to a notification of GeSciLiVis v1.2.0 by Prof Brian Ripley I have changed:
+- removed unstable dependency in aarch64-apple-darwin20 (64-bit) and x86_64-apple-darwin17.0 (64-bit) 
+
+## Resubmission
 This is a re-submission. In response to a notification of GeSciLiVis v1.1.0 by Prof Brian Ripley I have changed:
 - removed unstable dependency
 
