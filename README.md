@@ -6,8 +6,8 @@
 [![](https://www.r-pkg.org/badges/version/GeSciLiVis?color=orange)](https://cran.r-project.org/package=GeSciLiVis)
 [![metacran downloads](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)
 [![metacran downloads](https://cranlogs.r-pkg.org/badges/last-month/GeSciLiVis)](https://cran.r-project.org/package=GeSciLiVis)
+![](https://tokei.rs/b1/github/marina-leer/GeSciLiVis)
 ![GitHub commits](https://img.shields.io/github/commit-activity/m/marina-leer/GeSciLiVis)
-![GitHub commits](https://img.shields.io/github/commit-activity/y/marina-leer/GeSciLiVis)
 
 
 <p align="justify">
