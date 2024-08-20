@@ -148,7 +148,7 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
 
-### References
+## References
 <p align="justify">
 1. Fatehi F, Gray LC, Wootton R: How to improve your PubMed/MEDLINE searches: 3. advanced searching, MeSH and My NCBI. J Telemed Telecare 2014, 20(2):102-112.<br>
 2. Serrano Najera G, Narganes Carlon D, Crowther DJ: TrendyGenes, a computational pipeline for the detection of literature trends in academia and drug discovery. Sci Rep 2021, 11(1):15747.<br>
