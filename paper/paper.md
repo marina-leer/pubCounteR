@@ -43,13 +43,22 @@ bibliography: paper.bib
 # Summary
 
 Basic and clinical biomedical research relies heavily on modern large-scale datasets that include genomics, transcriptomics, epigenomics, metabolomics, and proteomics, among other “Omics”. These research tools very often generate lists of candidate genes that are linked to biological questions. To aid the interpretation of experimentally-obtained gene lists, Gene-based Scientific Literature Visualiser (GeSciLiVis), was developed as an R-package that screens publications by a user-defined set of keywords representing a specific biological context a priori, for experimentally-derived gene lists.
-
 The main algorithm of GeSciLiVis uses as input (i) a list of ≤50 DEGs in official gene symbol format (Maltais et al., 2002), which in the current implementation is confined to human (Homo sapiens) and murine (Mus musculus) genes, and (ii) an optional set of ≤10 a priori defined keyword search terms representing a biological context arranged in a hypothesis generation or biological interpretation style. The software then utilises R (version 4.0.2) and the R-package rentrez (Winter, 2017) to conduct a rentrez-search using Entrez Programming Utilities (E-utilities) (Sayers et al., 2023). This enables access to Entrez Gene (Maglott, 2011), NCBI’s database for gene-specific information, a collection of indexed information on genes from curation and automated analysis by NCBI’s Reference Sequence (RefSeq) project (O'Leary et al., 2016). RefSeq provides access to gene-specific information from the indexed title, abstract, main and supplementary text of each publication (including indexed table content and citation texts). GeSciLiVis employs the PubMed database a Representational State Transfer Application Programming Interface (REST API) to access the PubMed database, connect the record of each gene to its corresponding, distinct publications (those assigned unique PubMed identifiers, PMIDs). GeSciLiVis runs a rentrez-query based on (i) all keyword search terms (separately and combined) and (ii) each individual gene separately provided in the gene list of interest, running different iterations for each combination of these two components (Figure 1). Finally, it summarises the number of publications for each gene in an overview bar plot, ranking genes from highest to lowest publication activity (Figure 1A), and a summary table in a comma separated value (CSV) format that includes the most recent 100 PMIDs and publication titles for each published article. In an effort to limit individual search runtime, we limit the maximum candidate gene input to 50. Due to the open access structure of this software tool, users’ own preferences and needs can be applied to adapt GeSciLiVis to different search strategies. 
 
-<!--- add figure and caption
-![](path_to_image)
-*image_caption*
+<p align="center">
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.emf>
+</p>
+
+<!--- Figures can be included like this:
+![Caption for example figure.\label{fig:example}](figure.png)
+and referenced from text using \autoref{fig:example}.
+
+Figure sizes can be customized by adding an optional second parameter:
+![Caption for example figure.](figure.png){ width=20% }
+
 -->
+
+
 
 # Statement of need
 Presently, there is a lack of high-throughput literature survey methods or software to assess publication activity simultaneously for entire experimentally-derived gene sets in specific biological contexts user-defined a priori. The National Center for Biotechnology Information (NCBI) offers a website (https://www.ncbi.nlm.nih.gov/) featuring search modes that use an Advanced Search Builder interface [1]. Current literature analysis tools for gene sets predominantly utilize NCBI’s PubMed database to analyse publication trends per year [2], publications per gene [3], or per gene frequency in published gene sets for functional predictions [4], among others. Gene sets are usually associated with biological processes or pathways using Gene Ontology (GO) [5], or similar systems. For translational approaches, platforms including the Medical Subject Headings (MeSH) are used to predict gene-disease associations [6]. However, literature surveys on gene sets utilising particular terms that are poorly annotated in existing platforms (e.g. GO, MeSH), are typically performed manually, impractical and time-consuming. As modern Omics approaches generate an increasing wealth of available data that entail gene lists in various contexts (for instance: differentially expressed or co-expressed genes, enriched gene set in regulatory networks, ontologies or pathways), novel user-friendly tools are needed to enable the rapid assessment of gene lists and published information content.
