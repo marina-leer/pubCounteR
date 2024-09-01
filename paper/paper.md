@@ -47,22 +47,15 @@ The main algorithm of GeSciLiVis uses as input (i) a list of ≤50 DEGs in offic
 
 <p align="center">
 
-![GeSciLiVis.\label{fig:figure1}](Picture1a.png)
+!["Figure 1: Schematic overview of GeSciLiVis’ processing workflow: GeSciLiVis runs a rentrez-query based on all sets of keywords/search terms and each gene entered in a gene list. The R-package then uses the access to NCBI’s PubMed database via a Representational State Transfer Application Programming Interface (REST API). Computing the summation over the publication activity, GeSciLiVis visualises for every gene of interest the number of detected publications, ranked by publication numbers in a bar plot".\label{fig:figure1}](Picture1a.png)
 
-
-[Figure 1](https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.png "Schematic overview of GeSciLiVis’ processing workflow: GeSciLiVis runs a rentrez-query based on all sets of keywords/search terms and each gene entered in a gene list. The R-package then uses the access to NCBI’s PubMed database via a Representational State Transfer Application Programming Interface (REST API). Computing the summation over the publication activity, GeSciLiVis visualises for every gene of interest the number of detected publications, ranked by publication numbers in a bar plot.")
-
-[Caption.\label{fig:example}](https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.png)
-
-<!--- Figures can be included like this:
+<!--- 
+Figures can be included like this:
 ![Caption for example figure.\label{fig:example}](figure.png)
 and referenced from text using \autoref{fig:example}.
 Figure sizes can be customized by adding an optional second parameter:
-![Caption for example figure.](figure.png){ width=20% }
-
+![Caption for example figure.](figure.png){ width=20% } 
 -->
-
-
 
 # Statement of need
 Presently, there is a lack of high-throughput literature survey methods or software to assess publication activity simultaneously for entire experimentally-derived gene sets in specific biological contexts user-defined a priori. The National Center for Biotechnology Information (NCBI) offers a website (https://www.ncbi.nlm.nih.gov/) featuring search modes that use an Advanced Search Builder interface [1]. Current literature analysis tools for gene sets predominantly utilize NCBI’s PubMed database to analyse publication trends per year [2], publications per gene [3], or per gene frequency in published gene sets for functional predictions [4], among others. Gene sets are usually associated with biological processes or pathways using Gene Ontology (GO) [5], or similar systems. For translational approaches, platforms including the Medical Subject Headings (MeSH) are used to predict gene-disease associations [6]. However, literature surveys on gene sets utilising particular terms that are poorly annotated in existing platforms (e.g. GO, MeSH), are typically performed manually, impractical and time-consuming. As modern Omics approaches generate an increasing wealth of available data that entail gene lists in various contexts (for instance: differentially expressed or co-expressed genes, enriched gene set in regulatory networks, ontologies or pathways), novel user-friendly tools are needed to enable the rapid assessment of gene lists and published information content.
