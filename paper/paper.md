@@ -46,13 +46,13 @@ Basic and clinical biomedical research relies heavily on modern large-scale data
 The main algorithm of GeSciLiVis uses as input (i) a list of ≤50 DEGs in official gene symbol format (Maltais et al., 2002), which in the current implementation is confined to human (Homo sapiens) and murine (Mus musculus) genes, and (ii) an optional set of ≤10 a priori defined keyword search terms representing a biological context arranged in a hypothesis generation or biological interpretation style. The software then utilises R (version 4.0.2) and the R-package rentrez (Winter, 2017) to conduct a rentrez-search using Entrez Programming Utilities (E-utilities) (Sayers et al., 2023). This enables access to Entrez Gene (Maglott, 2011), NCBI’s database for gene-specific information, a collection of indexed information on genes from curation and automated analysis by NCBI’s Reference Sequence (RefSeq) project (O'Leary et al., 2016). RefSeq provides access to gene-specific information from the indexed title, abstract, main and supplementary text of each publication (including indexed table content and citation texts). GeSciLiVis employs the PubMed database a Representational State Transfer Application Programming Interface (REST API) to access the PubMed database, connect the record of each gene to its corresponding, distinct publications (those assigned unique PubMed identifiers, PMIDs). GeSciLiVis runs a rentrez-query based on (i) all keyword search terms (separately and combined) and (ii) each individual gene separately provided in the gene list of interest, running different iterations for each combination of these two components (Figure 1). Finally, it summarises the number of publications for each gene in an overview bar plot, ranking genes from highest to lowest publication activity (Figure 1A), and a summary table in a comma separated value (CSV) format that includes the most recent 100 PMIDs and publication titles for each published article. In an effort to limit individual search runtime, we limit the maximum candidate gene input to 50. Due to the open access structure of this software tool, users’ own preferences and needs can be applied to adapt GeSciLiVis to different search strategies. 
 
 <p align="center">
-  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.png>
-</p>
+
+
+[Figure 1](https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.png "Schematic overview of GeSciLiVis’ processing workflow: GeSciLiVis runs a rentrez-query based on all sets of keywords/search terms and each gene entered in a gene list. The R-package then uses the access to NCBI’s PubMed database via a Representational State Transfer Application Programming Interface (REST API). Computing the summation over the publication activity, GeSciLiVis visualises for every gene of interest the number of detected publications, ranked by publication numbers in a bar plot.")
 
 <!--- Figures can be included like this:
 ![Caption for example figure.\label{fig:example}](figure.png)
 and referenced from text using \autoref{fig:example}.
-
 Figure sizes can be customized by adding an optional second parameter:
 ![Caption for example figure.](figure.png){ width=20% }
 
