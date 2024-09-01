@@ -50,7 +50,7 @@ The main algorithm of GeSciLiVis uses as input (i) a list of ≤50 DEGs in offic
 
 [Figure 1](https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.png "Schematic overview of GeSciLiVis’ processing workflow: GeSciLiVis runs a rentrez-query based on all sets of keywords/search terms and each gene entered in a gene list. The R-package then uses the access to NCBI’s PubMed database via a Representational State Transfer Application Programming Interface (REST API). Computing the summation over the publication activity, GeSciLiVis visualises for every gene of interest the number of detected publications, ranked by publication numbers in a bar plot.")
 
-[Caption.\label{fig:example}](Picture1a.png)
+[Caption.\label{fig:example}](https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.png)
 
 <!--- Figures can be included like this:
 ![Caption for example figure.\label{fig:example}](figure.png)
