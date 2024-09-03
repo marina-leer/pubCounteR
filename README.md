@@ -162,10 +162,10 @@ Picture3b
 </p>
 
 <p align="center">
-  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figutes/Picture2a.png>
-  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figutes/Picture2b.png>
-  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figutes/Picture3a.png>
-  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figutes/Picture3b.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture2a.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture2b.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture3a.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture3b.png>
 
 </p>
 
