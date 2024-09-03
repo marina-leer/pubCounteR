@@ -151,7 +151,23 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
 </p>
 
 ## Manual test for the validation of biological context computation
-<!--- Figure 2: GeSciLiVis reliably computes and summarizes publication activity for gene sets that reflect existing biological knowledge -->
+<!--- Figure 2: GeSciLiVis reliably computes and summarizes publication activity for gene sets that reflect existing biological knowledge 
+Picture2a.png
+Picture2b.png
+Picture3a
+Picture3b
+
+-->
+
+</p>
+
+<p align="center">
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figutes/Picture2a.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figutes/Picture2b.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figutes/Picture3a.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figutes/Picture3b.png>
+
+</p>
 
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
