@@ -187,7 +187,7 @@ Lastly, the runtime of GeSciLiVis was found to scale linearly with input size (n
 </p>
 <!--- Figure 4. -->
 
-*Effect of input size parameters on runtime (in seconds) of a GeSciLiVis analysis.* (A) Effect of number of genes as an input size parameter, independent of established or novel gene characterisation. (B) Effect of number of genes as an input size parameter, shown separately for established genes and novel genes. Solid lines connect the individual data points, dotted lines represent the respective best fit lines from linear regression fits, grey error bars represent the 95% confidence intervals, y represents the slope, R2 is the coefficient of determination, and the p-value represents a two-tailed test of the null hypothesis that the slopes are identical.
+**Effect of input size parameters on runtime (in seconds) of a GeSciLiVis analysis.** (A) Effect of number of genes as an input size parameter, independent of established or novel gene characterisation. (B) Effect of number of genes as an input size parameter, shown separately for established genes and novel genes. Solid lines connect the individual data points, dotted lines represent the respective best fit lines from linear regression fits, grey error bars represent the 95% confidence intervals, y represents the slope, R2 is the coefficient of determination, and the p-value represents a two-tailed test of the null hypothesis that the slopes are identical.
 
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
