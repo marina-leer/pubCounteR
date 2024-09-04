@@ -178,6 +178,16 @@ To validate the publication activity through GeSciLiVis, these lists of marker g
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture3b.png>
 </p>
 
+
+## Execution time and input size 
+Lastly, the runtime of GeSciLiVis was found to scale linearly with input size (number of entry genes; Figure 4A), and search duration was elevated when genes with high publication activity were entered (Figure 4B). Therefore, GeSciLiVis detects with quantitative precision the published gene-specific context-based research activity, thereby providing a dependable depiction of the existing volume of publication activity for input gene sets in relation to the user-defined biological context.
+
+<p align="center">
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture4ab.png>
+</p>
+
+<!--- Figure 4 -->
+
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
 
