@@ -170,7 +170,6 @@ Picture3b
 </p>
 
 ## Confirmation of quantitative precision in research activity computation
-<p2 align="center">
 The precision of GeSciLiVis in computing research activity for input gene lists was further verified using a gene expression dataset from our previously published study {Ambrosi, 2017 #133}. The data were obtained in experiments comparing the transcriptomic signatures of defined stem and progenitor cell populations occurring in bone tissue that were measured by RNA-sequencing. Specifically, a subset of bone-resident multipotent mesenchymal stromal cells (MSC) was compared to its cellular progeny, as it can produce daughter cells either committed to undergo differentiation into bone cells (osteogenic progenitor cells; OPC) or fat cells (adipogenic progenitor cells; APC). DEGs enriched in one of the three cell types were initially derived from cell populations as determined by statistical significance (p value < 0.05). These subpopulation-defining marker genes were separated by manual literature search into two categories, corresponding to (i) established marker genes that are well-documented in the published literature on stem cells, and (ii) novel marker genes which show little, if any, publication activity related to stem cells {Ambrosi, 2017 #133} (Supplementary Table 1). <br>
 To validate the publication activity through GeSciLiVis, these lists of marker genes were used as input data and the number of identified articles per gene were summarized to compare established gene- and novel gene-related publication activities in an unbiased manner. A biologically defined keyword set was used as co-input, referring to the original area of research from which the dataset was derived, i.e. “stem cell biology” of bone-resident cells (Supplementary Table 2). Genes previously annotated as established marker genes in the reference dataset {Ambrosi, 2017 #133} displayed higher publication activity when compared to the novel marker gene category, confirming the ability of our tool to identify established genes through a higher published literature content (Figure 3A). In contrast, genes previously annotated manually as novel markers consistently showed a significantly lower publication activity for all three cell types (Figure 3A-B). 
 
@@ -180,8 +179,6 @@ To validate the publication activity through GeSciLiVis, these lists of marker g
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture3a.png>
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture3b.png>
 </p>
-
-</p2>
 
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
