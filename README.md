@@ -169,6 +169,15 @@ Picture3b
 
 </p>
 
+## Confirmation of quantitative precision in research activity computation
+
+<p align="center">
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture3a.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture3b.png>
+
+</p>
+
+
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
 
