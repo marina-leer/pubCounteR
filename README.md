@@ -23,6 +23,7 @@ For a set of genes, using official gene symbols (Maltais et al. 2002) belonging 
 </p>
 
 <p align="justify">
+**Figure 1.** <br>
 The returned hits, i.e. publications, are summarised for each gene separately and represented as a publication activity for as many as 50 genes. This will result in a barplot visualisation, that displays for every gene of interest the number of the detected publication activity, and exports the most recent individual 100 publications per gene in a csv file format.
 </p>
 
@@ -101,7 +102,6 @@ In this example, we use a list of exemplary genes that could represent a differe
 </table>
 
 
-
 ```r
 keyword_list = c("mesenchymal stem cell", "multipotent stem cell", "skeletal stem cell", "stem cell", "progenitor cell")
 ```
@@ -162,8 +162,8 @@ Using the mouse (Mus musculus) as an example species, which currently contains >
 </p>
 
 <!--- Figure 2: -->
-Figure 2. GeSciLiVis reliably computes and summarizes publication activity for gene sets that reflect existing biological knowledge
-(A) Node connectivity of four selected gene sets representing a typical hierarchy of relations in the GO system. The GO identifier, number of genes in the term (shown in brackets), and term title are shown. (B) Examination of the GeSciLiVis-computed publication activity summation across GO-organized gene lists. The same four search terms were used as input across the four GO gene lists, representing a total of four independent GeSciLiVis literature interrogations per GO term, or sixteen in total. Bars represent average numbers of GeSciLiVis-computed articles as mean ± SEM summarizing all respective genes in each list, Mann-Whitney-U test with Bonferroni correction; statistical significance are \* p< 0.01; \*\* p< 0.001; and \*\*\* p< 0.0001.
+**Figure 2. GeSciLiVis reliably computes and summarizes publication activity for gene sets that reflect existing biological knowledge.**
+(A) Node connectivity of four selected gene sets representing a typical hierarchy of relations in the GO system. The GO identifier, number of genes in the term (shown in brackets), and term title are shown. (B) Examination of the GeSciLiVis-computed publication activity summation across GO-organized gene lists. The same four search terms were used as input across the four GO gene lists, representing a total of four independent GeSciLiVis literature interrogations per GO term, or sixteen in total. Bars represent average numbers of GeSciLiVis-computed articles as mean ± SEM summarizing all respective genes in each list, Mann-Whitney-U test with Bonferroni correction; statistical significance are \* p< 0.01; \*\* p< 0.001; and \*\*\* p< 0.0001. 
 
 ## Confirmation of quantitative precision in research activity computation
 The precision of GeSciLiVis in computing research activity for input gene lists was further verified using a gene expression dataset from our previously published study {Ambrosi, 2017 #133}. The data were obtained in experiments comparing the transcriptomic signatures of defined stem and progenitor cell populations occurring in bone tissue that were measured by RNA-sequencing. Specifically, a subset of bone-resident multipotent mesenchymal stromal cells (MSC) was compared to its cellular progeny, as it can produce daughter cells either committed to undergo differentiation into bone cells (osteogenic progenitor cells; OPC) or fat cells (adipogenic progenitor cells; APC). DEGs enriched in one of the three cell types were initially derived from cell populations as determined by statistical significance (p value < 0.05). These subpopulation-defining marker genes were separated by manual literature search into two categories, corresponding to (i) established marker genes that are well-documented in the published literature on stem cells, and (ii) novel marker genes which show little, if any, publication activity related to stem cells {Ambrosi, 2017 #133} (Supplementary Table 1). <br>
@@ -176,7 +176,8 @@ To validate the publication activity through GeSciLiVis, these lists of marker g
 </p>
 
 <!--- Figure 3.  -->
-Figure 3. GeSciLiVis effectively recapitulates the manual assessment of research activities for individual candidate gene entries. (A) Average number of publications per gene from a validation of publication activity by GeSciLiVis. Differentially expressed marker genes of three defined stem and progenitor cell populations as previously identified were used {Ambrosi, 2017 #133}. A 10-keyword set referring to the research area “Stem Cell Biology” was generated and two lists containing either established or novel marker genes of multipotent mesenchymal stromal cells (MSC), osteogenic (OPC), or adipogenic progenitor cells (APC) were entered (individual genes and keyword set: Supplementary Tables 1 and 2). Bars represent average number of GeSciLiVis-computed articles as mean ± SEM summarizing all respective genes in each list, Mann-Whitney-U test with Bonferroni correction; \* < 0.01 \*\* < 0.001 \*\*\* < 0.0001. (B) Output plots visualize publication activity in number of publications in logarithmic scale and shown separately for established markers (23 genes; left panel) and novel markers (42 genes; right panel) of OPCs as published in {Ambrosi, 2017 #133}. This illustrative GeSciLiVis output plot for the two gene lists (novel and established) from OPCs is accompanied by output examples of the most recent 100 publications for the two OPC gene lists in CSV format in Supplementary Files 1 and 2 respectively.
+**Figure 3. GeSciLiVis effectively recapitulates the manual assessment of research activities for individual candidate gene entries.** 
+(A) Average number of publications per gene from a validation of publication activity by GeSciLiVis. Differentially expressed marker genes of three defined stem and progenitor cell populations as previously identified were used {Ambrosi, 2017 #133}. A 10-keyword set referring to the research area “Stem Cell Biology” was generated and two lists containing either established or novel marker genes of multipotent mesenchymal stromal cells (MSC), osteogenic (OPC), or adipogenic progenitor cells (APC) were entered (individual genes and keyword set: Supplementary Tables 1 and 2). Bars represent average number of GeSciLiVis-computed articles as mean ± SEM summarizing all respective genes in each list, Mann-Whitney-U test with Bonferroni correction; \* < 0.01 \*\* < 0.001 \*\*\* < 0.0001. (B) Output plots visualize publication activity in number of publications in logarithmic scale and shown separately for established markers (23 genes; left panel) and novel markers (42 genes; right panel) of OPCs as published in {Ambrosi, 2017 #133}. This illustrative GeSciLiVis output plot for the two gene lists (novel and established) from OPCs is accompanied by output examples of the most recent 100 publications for the two OPC gene lists in CSV format in Supplementary Files 1 and 2 respectively.
 
 ## Execution time and input size 
 Lastly, the runtime of GeSciLiVis was found to scale linearly with input size (number of entry genes; Figure 4A), and search duration was elevated when genes with high publication activity were entered (Figure 4B). Therefore, GeSciLiVis detects with quantitative precision the published gene-specific context-based research activity, thereby providing a dependable depiction of the existing volume of publication activity for input gene sets in relation to the user-defined biological context.
@@ -186,7 +187,8 @@ Lastly, the runtime of GeSciLiVis was found to scale linearly with input size (n
 </p>
 <!--- Figure 4. -->
 
-**Effect of input size parameters on runtime (in seconds) of a GeSciLiVis analysis.** (A) Effect of number of genes as an input size parameter, independent of established or novel gene characterisation. (B) Effect of number of genes as an input size parameter, shown separately for established genes and novel genes. Solid lines connect the individual data points, dotted lines represent the respective best fit lines from linear regression fits, grey error bars represent the 95% confidence intervals, y represents the slope, R2 is the coefficient of determination, and the p-value represents a two-tailed test of the null hypothesis that the slopes are identical.
+**Figure 4. Effect of input size parameters on runtime (in seconds) of a GeSciLiVis analysis.** 
+(A) Effect of number of genes as an input size parameter, independent of established or novel gene characterisation. (B) Effect of number of genes as an input size parameter, shown separately for established genes and novel genes. Solid lines connect the individual data points, dotted lines represent the respective best fit lines from linear regression fits, grey error bars represent the 95% confidence intervals, y represents the slope, R2 is the coefficient of determination, and the p-value represents a two-tailed test of the null hypothesis that the slopes are identical.
 
 ## Supplementary information
 
@@ -229,3 +231,4 @@ The GeSciLiVis software has a GPLv3 LICENSE.
 12. Ambrosi TH, Scialdone A, Graja A, Gohlke S, Jank AM, Bocian C, Woelk L, Fan H, Logan DW, Schurmann A et al: Adipocyte Accumulation in the Bone Marrow during Obesity and Aging Impairs Stem Cell-Based Hematopoietic and Bone Regeneration. Cell Stem Cell 2017,20(6):771-784 e776.<br>
 <br>
 </p>
+
