@@ -19,7 +19,7 @@ For a set of genes, using official gene symbols (Maltais et al. 2002) belonging 
 </p>
 
 <p align="center">
-  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/test_figure.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.png>
 </p>
 
 <p align="justify">
