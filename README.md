@@ -192,7 +192,7 @@ Lastly, the runtime of GeSciLiVis was found to scale linearly with input size (n
 ## Supplementary information
 
 [**Supplementary Table 1.**](https://github.com/marina-leer/GeSciLiVis/blob/main/supplementary) 
-Cell type-specific marker gene lists. Supplementary Table 2. Keyword set example for biological context definition.](https://github.com/marina-leer/GeSciLiVis/blob/main/supplementary)
+Cell type-specific marker gene lists. Supplementary Table 2. Keyword set example for biological context definition.
 
 [**Supplementary File 1.**](https://github.com/marina-leer/GeSciLiVis/blob/main/supplementary) 
 Example of an excel output file for established OPC markers, listing the top ≤ 100 publications (by PMID and title) for each of the interrogated genes.
