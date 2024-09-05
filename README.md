@@ -165,7 +165,7 @@ Using the mouse (Mus musculus) as an example species, which currently contains >
 
 ## Confirmation of quantitative precision in research activity computation
 <p align="justify">
-The precision of GeSciLiVis in computing research activity for input gene lists was further verified using a gene expression dataset from our previously published study {Ambrosi, 2017 #133}. The data were obtained in experiments comparing the transcriptomic signatures of defined stem and progenitor cell populations occurring in bone tissue that were measured by RNA-sequencing. Specifically, a subset of bone-resident multipotent mesenchymal stromal cells (MSC) was compared to its cellular progeny, as it can produce daughter cells either committed to undergo differentiation into bone cells (osteogenic progenitor cells; OPC) or fat cells (adipogenic progenitor cells; APC). DEGs enriched in one of the three cell types were initially derived from cell populations as determined by statistical significance (p value < 0.05). These subpopulation-defining marker genes were separated by manual literature search into two categories, corresponding to (i) established marker genes that are well-documented in the published literature on stem cells, and (ii) novel marker genes which show little, if any, publication activity related to stem cells {Ambrosi, 2017 #133} (Supplementary Table 1). <br>
+The precision of GeSciLiVis in computing research activity for input gene lists was further verified using as an example a gene expression dataset from our previously published study {Ambrosi, 2017 #133}. The data were obtained in experiments comparing the transcriptomic signatures of defined stem and progenitor cell populations occurring in bone tissue as measured by RNA-sequencing. FOr reference, a subset of bone-resident multipotent mesenchymal stromal cells (MSC) was compared to its cellular progeny, as it can produce daughter cells either committed to undergo differentiation into bone cells (osteogenic progenitor cells; OPC) or fat cells (adipogenic progenitor cells; APC). DEGs enriched in one of the three cell types were initially derived from cell populations as determined by statistical significance (p value < 0.05). These subpopulation-defining marker genes were separated by manual literature inspection performed by experienced researchers in the field into two categories, corresponding to (i) established marker genes that are well-documented in the published literature on stem cells, and (ii) novel marker genes which show little, if any, publication activity related to stem cells {Ambrosi, 2017 #133} (Supplementary Table 1). <br>
 To validate the publication activity through GeSciLiVis, these lists of marker genes were used as input data and the number of identified articles per gene were summarized to compare established gene- and novel gene-related publication activities in an unbiased manner. A biologically defined keyword set was used as co-input, referring to the original area of research from which the dataset was derived, i.e. “stem cell biology” of bone-resident cells (Supplementary Table 2). Genes previously annotated as established marker genes in the reference dataset {Ambrosi, 2017 #133} displayed higher publication activity when compared to the novel marker gene category, confirming the ability of our tool to identify established genes through a higher published literature content (Figure 3A). In contrast, genes previously annotated manually as novel markers consistently showed a significantly lower publication activity for all three cell types (Figure 3A-B). 
 </p>
 
@@ -206,30 +206,4 @@ Example of an excel output file for novel OPC markers, listing the top ≤ 100 p
 The GeSciLiVis software has a GPLv3 LICENSE.
 
 ## References
-<p align="justify">
-1. Fatehi F, Gray LC, Wootton R: How to improve your PubMed/MEDLINE searches: 3. advanced searching, MeSH and My NCBI. J Telemed Telecare 2014, 20(2):102-112.<br>
-<br>
-2. Serrano Najera G, Narganes Carlon D, Crowther DJ: TrendyGenes, a computational pipeline for the detection of literature trends in academia and drug discovery. Sci Rep 2021, 11(1):15747.<br>
-<br>
-3. von Mering C, Jensen LJ, Snel B, Hooper SD, Krupp M, Foglierini M, Jouffre N, Huynen MA, Bork P: STRING: known and predicted protein-protein associations, integrated and transferred across organisms. Nucleic Acids Res 2005,33(Database issue):D433-437.<br>
-<br>
-4. Clarke DJB, Marino GB, Deng EZ, Xie Z, Evangelista JE, Ma'ayan A: Rummagene: massive mining of gene sets from supporting materials of biomedical research publications. Commun Biol 2024, 7(1):482.<br>
-<br>
-5. Gene Ontology C, Aleksander SA, Balhoff J, Carbon S, Cherry JM, Drabkin HJ, Ebert D, Feuermann M, Gaudet P, Harris NL et al:The Gene Ontology knowledgebase in 2023.Genetics 2023, 224(1).<br>
-<br>
-6. Narganes-Carlon D, Crowther DJ, Pearson ER: A publication-wide association study (PWAS), historical language models to prioritise novel therapeutic drug targets. Sci Rep 2023, 13(1):8366.<br>
-<br>
-7. Maltais LJ, Blake JA, Chu T, Lutz CM, Eppig JT, Jackson I: Rules and guidelines for mouse gene, allele, and mutation nomenclature: a condensed version. Genomics 2002,79(4):471-474.<br>
-<br>
-8. Winter DJ: rentrez: An R package for the NCBI eUtils API. The R Journal 2017, 9:520-526.<br>
-<br>
-9. Sayers EW, Bolton EE, Brister JR, Canese K, Chan J, Comeau DC, Farrell CM, Feldgarden M, Fine AM, Funk K et al: Database resources of the National Center for Biotechnology Information in 2023. Nucleic Acids Res 2023, 51(D1):D29-D38.<br>
-<br>
-10. Maglott D, Ostell J, Pruitt KD, Tatusova T: Entrez Gene: gene-centered information at NCBI. Nucleic Acids Res 2011, 39(Database issue):D52-57.<br>
-<br>
-11. O'Leary NA, Wright MW, Brister JR, Ciufo S, Haddad D, McVeigh R, Rajput B, Robbertse B, Smith-White B, Ako-Adjei D et al: Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic Acids Res 2016, 44(D1):D733-745.<br>
-<br>
-12. Ambrosi TH, Scialdone A, Graja A, Gohlke S, Jank AM, Bocian C, Woelk L, Fan H, Logan DW, Schurmann A et al: Adipocyte Accumulation in the Bone Marrow during Obesity and Aging Impairs Stem Cell-Based Hematopoietic and Bone Regeneration. Cell Stem Cell 2017,20(6):771-784 e776.<br>
-<br>
-</p>
-
+<div id="refs"></div>
