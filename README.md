@@ -15,7 +15,7 @@ The concept for an interface-based bioinformatical tool that can routinely and r
 </p>
 
 <p align="justify">
-For a set of genes, using official gene symbols (Maltais et al. 2002) belonging to the human or murine genome, such as those derived from differential expression analysis in RNA-seq datasets, and a defined set of keywords that is biologically-driven and represents a specific area of research, the algorithm constructs a query separately for each gene, and uses the R-package rentrez (Winter, 2017) to access NCBI’s PubMed database (www.PubMed.gov; Lu et al. 2011) and its search functions. 
+For a set of genes, using official gene symbols (Maltais et al. 2002) belonging to the human or murine genome, such as those derived from differential expression analysis in RNA-seq datasets, and a defined set of keywords that is biologically-driven and represents a specific area of research, the algorithm constructs a query separately for each gene, and uses the R-package rentrez (Winter, 2017) to access NCBI’s PubMed database (www.PubMed.gov; Lu et al. 2011) and its search functions. The returned hits, i.e. publications, are summarised for each gene separately and represented as a publication activity for as many as 50 genes. This will result in a barplot visualisation, that displays for every gene of interest the number of the detected publication activity, and exports the most recent individual 100 publications per gene in a csv file format.
 </p>
 
 <p align="center">
@@ -23,8 +23,8 @@ For a set of genes, using official gene symbols (Maltais et al. 2002) belonging 
 </p>
 
 <p align="justify">
-**Figure 1.** <br>
-The returned hits, i.e. publications, are summarised for each gene separately and represented as a publication activity for as many as 50 genes. This will result in a barplot visualisation, that displays for every gene of interest the number of the detected publication activity, and exports the most recent individual 100 publications per gene in a csv file format.
+**Figure 1.** Schematic overview of GeSciLiVis’ processing workflow: GeSciLiVis runs a rentrez-query based on all sets of keywords/search terms and each gene entered in a gene list. The R-package then uses the access to NCBI’s PubMed database via a Representational State Transfer Application Programming Interface (REST API). Computing the summation over the publication activity, GeSciLiVis visualises for every gene of interest the number of detected publications, ranked by publication numbers in a bar plot.
+
 </p>
 
 <p align="justify">
