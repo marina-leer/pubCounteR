@@ -5,16 +5,14 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
 [![](https://www.r-pkg.org/badges/version/GeSciLiVis?color=orange)](https://cran.r-project.org/package=GeSciLiVis)
 [![metacran downloads](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)
-[![metacran downloads](https://cranlogs.r-pkg.org/badges/last-month/GeSciLiVis)](https://cran.r-project.org/package=GeSciLiVis)
+ <!-- [![metacran downloads](https://cranlogs.r-pkg.org/badges/last-month/GeSciLiVis)](https://cran.r-project.org/package=GeSciLiVis) -->
 ![](https://tokei.rs/b1/github/marina-leer/GeSciLiVis)
 ![GitHub commits](https://img.shields.io/github/commit-activity/m/marina-leer/GeSciLiVis)
 
 
 <p align="justify">
-The concept for an interface-based bioinformatical tool that can routinely and reliably perform multi-gene high-throughput, biological context-based literature database interrogation. The tool stems from the need to efficiently assess a large number of differentially expressed (DE) genes to allow rapid evaluation of targets for further research. GeSciLiVis thus enables a simultaneous screen for multiple genes of interest in Pubmed (www.PubMed.gov; Lu et al. 2011), and a quick but thorough overview of the related publication activity linking individual candidate genes and a customised research area or topic.
-</p>
-
-<p align="justify">
+The concept for an interface-based bioinformatical tool that can routinely and reliably perform multi-gene high-throughput, biological context-based literature database interrogation. The tool stems from the need to efficiently assess a large number of differentially expressed (DE) genes to allow rapid evaluation of targets for further research. GeSciLiVis thus enables a simultaneous screen for multiple genes of interest in Pubmed (www.PubMed.gov; Lu et al. 2011), and a quick but thorough overview of the related publication activity linking individual candidate genes and a customised research area or topic.<br>
+<br>
 For a set of genes, using official gene symbols (Maltais et al. 2002) belonging to the human or murine genome, such as those derived from differential expression analysis in RNA-seq datasets, and a defined set of keywords that is biologically-driven and represents a specific area of research, the algorithm constructs a query separately for each gene, and uses the R-package rentrez (Winter, 2017) to access NCBI’s PubMed database (www.PubMed.gov; Lu et al. 2011) and its search functions. The returned hits, i.e. publications, are summarised for each gene separately and represented as a publication activity for as many as 50 genes. This will result in a barplot visualisation, that displays for every gene of interest the number of the detected publication activity, and exports the most recent individual 100 publications per gene in a csv file format.
 </p>
 
@@ -22,8 +20,9 @@ For a set of genes, using official gene symbols (Maltais et al. 2002) belonging 
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.png>
 </p>
 
+<p align="justify">
 **Figure 1. Schematic overview of GeSciLiVis’ processing workflow.** GeSciLiVis runs a rentrez-query based on all sets of keywords/search terms and each gene entered in a gene list. The R-package then uses the access to NCBI’s PubMed database via a Representational State Transfer Application Programming Interface (REST API). Computing the summation over the publication activity, GeSciLiVis visualises for every gene of interest the number of detected publications, ranked by publication numbers in a bar plot.
-
+</p>.
 
 <p align="justify">
 Thus, we present a novel literature identification strategy that quickly surveys the published literature available research on entire gene lists, for individual genes, in conjunction with a specific biological interest. This allows investigators to identify gaps in knowledge through little-researched genes that could be putative novel targets for diverse biological fields of research, and to deliver an accurate overview and the most recent related work for any list of genes of interest. 
