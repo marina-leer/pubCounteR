@@ -151,12 +151,10 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
 </p>
 
 ## Manual test for the validation of biological context computation
-<!--- Figure 2: GeSciLiVis reliably computes and summarizes publication activity for gene sets that reflect existing biological knowledge 
-Picture2a.png
-Picture2b.png
-Picture3a
-Picture3b
+To validate the accuracy and utility of GeSciLiVis in identifying published literature in connection to defined gene-related biological search terms, we used as a reference the biological content information organized by the GO system {Michael Ashburner, 2000 #1503;Gene Ontology, 2023 #1501}. The GO tool currently includes gene-related biological information based on experimental findings from >150,000 peer-reviewed studies, corresponding to ~700,000 experimentally-supported annotations and >6,000,000 inferred functional annotations across >5,000 species {Michael Ashburner, 2000 #1503;Gene Ontology, 2023 #1501}. 
+Using the mouse (Mus musculus) as an example species, which currently contains >160,000 experimentally-supported annotations {Michael Ashburner, 2000 #1503;Gene Ontology, 2023 #1501}, we first tested four separate sets of genes, each set representing one of four discrete GO terms (GO:0030206, GO:0030208, GO:0015012, GO:0018146) due to divergent biosynthetic processes and related encoding genes (Figure 2A). These selected four terms share a parent node (GO:0009059), indicating that although the biosynthetic processes are distinct, they belong to the same macromolecule biosynthetic class and thus are functionally related regarding their underlying biology (Figure 2A). This discrete but also shared node connectivity of the selected four gene sets represents a typical hierarchy of relations in the GO system {Michael Ashburner, 2000 #1503;Gene Ontology, 2023 #1501}, making this an exemplary test for validating the accuracy of the functionality of GeSciLiVis through GO-organised, gene-related publications. For interrogation of existing literature based on selected keyword search terms, we input search terms that reflected the defined biological annotation of the gene lists by the GO tool, thereby matching the biological content of GO-organized genes to that of the search terms. Examination of the GeSciLiVis-computed publication activity demonstrated both the accuracy and specificity of GeSciLiVis, as the input search terms robustly reflected the biological content information organized in the GO tool (Figure 2B). Moreover, statistically significant results were observed independent of the length of gene lists, from GO terms represented by longer lists (GO:0015012, represented by 28 genes), to short gene lists represented by as few as three (GO:0030208) or four (GO:0018146) individual genes (Figure 2B). Thus, GeSciLiVis accurately computes the gene-specific biological content for entire input gene lists and reliably matches this content to the biological context provided as an input search term, thereby computing and summarizing with high precision the publication activity for gene sets to reflect existing biological knowledge.
 
+<!--- Figure 2: GeSciLiVis reliably computes and summarizes publication activity for gene sets that reflect existing biological knowledge 
 -->
 
 </p>
@@ -166,6 +164,7 @@ Picture3b
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture2b.png>
 
 </p>
+
 
 ## Confirmation of quantitative precision in research activity computation
 The precision of GeSciLiVis in computing research activity for input gene lists was further verified using a gene expression dataset from our previously published study {Ambrosi, 2017 #133}. The data were obtained in experiments comparing the transcriptomic signatures of defined stem and progenitor cell populations occurring in bone tissue that were measured by RNA-sequencing. Specifically, a subset of bone-resident multipotent mesenchymal stromal cells (MSC) was compared to its cellular progeny, as it can produce daughter cells either committed to undergo differentiation into bone cells (osteogenic progenitor cells; OPC) or fat cells (adipogenic progenitor cells; APC). DEGs enriched in one of the three cell types were initially derived from cell populations as determined by statistical significance (p value < 0.05). These subpopulation-defining marker genes were separated by manual literature search into two categories, corresponding to (i) established marker genes that are well-documented in the published literature on stem cells, and (ii) novel marker genes which show little, if any, publication activity related to stem cells {Ambrosi, 2017 #133} (Supplementary Table 1). <br>
