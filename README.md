@@ -191,13 +191,11 @@ Lastly, the runtime of GeSciLiVis was found to scale linearly with input size (n
 
 ## Supplementary information
 
-Supplementary Table 1. Cell type-specific marker gene lists. Supplementary Table 2. Keyword set example for biological context definition.
-[Test supp](https://github.com/marina-leer/GeSciLiVis/blob/main/supplementary)
+[**Supplementary Table 1.** Cell type-specific marker gene lists. Supplementary Table 2. Keyword set example for biological context definition.](https://github.com/marina-leer/GeSciLiVis/blob/main/supplementary)
 
+[**Supplementary File 1.** Example of an excel output file for established OPC markers, listing the top ≤ 100 publications (by PMID and title) for each of the interrogated genes.](https://github.com/marina-leer/GeSciLiVis/blob/main/supplementary)
 
-Supplementary File 1. Example of an excel output file for established OPC markers, listing the top ≤ 100 publications (by PMID and title) for each of the interrogated genes.
-
-Supplementary File 2. Example of an excel output file for novel OPC markers, listing the top ≤ 100 publications (by PMID and title) for each of the interrogated genes. 
+[**Supplementary File 2.** Example of an excel output file for novel OPC markers, listing the top ≤ 100 publications (by PMID and title) for each of the interrogated genes.] (https://github.com/marina-leer/GeSciLiVis/blob/main/supplementary)
 
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
