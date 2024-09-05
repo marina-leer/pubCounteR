@@ -192,7 +192,6 @@ Lastly, the runtime of GeSciLiVis was found to scale linearly with input size (n
 (A) Effect of number of genes as an input size parameter, independent of established or novel gene characterisation. (B) Effect of number of genes as an input size parameter, shown separately for established genes and novel genes. Solid lines connect the individual data points, dotted lines represent the respective best fit lines from linear regression fits, grey error bars represent the 95% confidence intervals, y represents the slope, R2 is the coefficient of determination, and the p-value represents a two-tailed test of the null hypothesis that the slopes are identical.
 
 ## Supplementary information
-<p align="justify"> <br>
 [**Supplementary Table 1.**](https://github.com/marina-leer/GeSciLiVis/blob/main/supplementary) 
 Cell type-specific marker gene lists. Supplementary Table 2. Keyword set example for biological context definition.
 
@@ -201,7 +200,6 @@ Example of an excel output file for established OPC markers, listing the top ≤
 
 [**Supplementary File 2.**](https://github.com/marina-leer/GeSciLiVis/blob/main/supplementary) 
 Example of an excel output file for novel OPC markers, listing the top ≤ 100 publications (by PMID and title) for each of the interrogated genes.
-</p>
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
 
