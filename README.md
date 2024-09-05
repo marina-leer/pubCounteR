@@ -22,10 +22,8 @@ For a set of genes, using official gene symbols (Maltais et al. 2002) belonging 
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.png>
 </p>
 
-<p align="justify">
 **Figure 1.** Schematic overview of GeSciLiVis’ processing workflow: GeSciLiVis runs a rentrez-query based on all sets of keywords/search terms and each gene entered in a gene list. The R-package then uses the access to NCBI’s PubMed database via a Representational State Transfer Application Programming Interface (REST API). Computing the summation over the publication activity, GeSciLiVis visualises for every gene of interest the number of detected publications, ranked by publication numbers in a bar plot.
 
-</p>
 
 <p align="justify">
 Thus, we present a novel literature identification strategy that quickly surveys the published literature available research on entire gene lists, for individual genes, in conjunction with a specific biological interest. This allows investigators to identify gaps in knowledge through little-researched genes that could be putative novel targets for diverse biological fields of research, and to deliver an accurate overview and the most recent related work for any list of genes of interest. 
