@@ -192,7 +192,7 @@ Lastly, the runtime of GeSciLiVis was found to scale linearly with input size (n
 (A) Effect of number of genes as an input size parameter, independent of established or novel gene characterisation. (B) Effect of number of genes as an input size parameter, shown separately for established genes and novel genes. Solid lines connect the individual data points, dotted lines represent the respective best fit lines from linear regression fits, grey error bars represent the 95% confidence intervals, y represents the slope, R2 is the coefficient of determination, and the p-value represents a two-tailed test of the null hypothesis that the slopes are identical.
 
 ## Supplementary information
-<p align="justify">
+<p align="justify"> <br>
 [**Supplementary Table 1.**](https://github.com/marina-leer/GeSciLiVis/blob/main/supplementary) 
 Cell type-specific marker gene lists. Supplementary Table 2. Keyword set example for biological context definition.
 
@@ -206,4 +206,30 @@ Example of an excel output file for novel OPC markers, listing the top ≤ 100 p
 The GeSciLiVis software has a GPLv3 LICENSE.
 
 ## References
-<div id="refs"></div>
+<p align="justify">
+1. Fatehi F, Gray LC, Wootton R: How to improve your PubMed/MEDLINE searches: 3. advanced searching, MeSH and My NCBI. J Telemed Telecare 2014, 20(2):102-112.<br>
+<br>
+2. Serrano Najera G, Narganes Carlon D, Crowther DJ: TrendyGenes, a computational pipeline for the detection of literature trends in academia and drug discovery. Sci Rep 2021, 11(1):15747.<br>
+<br>
+3. von Mering C, Jensen LJ, Snel B, Hooper SD, Krupp M, Foglierini M, Jouffre N, Huynen MA, Bork P: STRING: known and predicted protein-protein associations, integrated and transferred across organisms. Nucleic Acids Res 2005,33(Database issue):D433-437.<br>
+<br>
+4. Clarke DJB, Marino GB, Deng EZ, Xie Z, Evangelista JE, Ma'ayan A: Rummagene: massive mining of gene sets from supporting materials of biomedical research publications. Commun Biol 2024, 7(1):482.<br>
+<br>
+5. Gene Ontology C, Aleksander SA, Balhoff J, Carbon S, Cherry JM, Drabkin HJ, Ebert D, Feuermann M, Gaudet P, Harris NL et al:The Gene Ontology knowledgebase in 2023.Genetics 2023, 224(1).<br>
+<br>
+6. Narganes-Carlon D, Crowther DJ, Pearson ER: A publication-wide association study (PWAS), historical language models to prioritise novel therapeutic drug targets. Sci Rep 2023, 13(1):8366.<br>
+<br>
+7. Maltais LJ, Blake JA, Chu T, Lutz CM, Eppig JT, Jackson I: Rules and guidelines for mouse gene, allele, and mutation nomenclature: a condensed version. Genomics 2002,79(4):471-474.<br>
+<br>
+8. Winter DJ: rentrez: An R package for the NCBI eUtils API. The R Journal 2017, 9:520-526.<br>
+<br>
+9. Sayers EW, Bolton EE, Brister JR, Canese K, Chan J, Comeau DC, Farrell CM, Feldgarden M, Fine AM, Funk K et al: Database resources of the National Center for Biotechnology Information in 2023. Nucleic Acids Res 2023, 51(D1):D29-D38.<br>
+<br>
+10. Maglott D, Ostell J, Pruitt KD, Tatusova T: Entrez Gene: gene-centered information at NCBI. Nucleic Acids Res 2011, 39(Database issue):D52-57.<br>
+<br>
+11. O'Leary NA, Wright MW, Brister JR, Ciufo S, Haddad D, McVeigh R, Rajput B, Robbertse B, Smith-White B, Ako-Adjei D et al: Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic Acids Res 2016, 44(D1):D733-745.<br>
+<br>
+12. Ambrosi TH, Scialdone A, Graja A, Gohlke S, Jank AM, Bocian C, Woelk L, Fan H, Logan DW, Schurmann A et al: Adipocyte Accumulation in the Bone Marrow during Obesity and Aging Impairs Stem Cell-Based Hematopoietic and Bone Regeneration. Cell Stem Cell 2017,20(6):771-784 e776.<br>
+<br>
+</p>
+
