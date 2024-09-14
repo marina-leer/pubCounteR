@@ -205,26 +205,26 @@ The GeSciLiVis software has a GPLv3 LICENSE.
 
 ## References
 <p align="justify">
-1.	Lu Z: PubMed and beyond: a survey of web tools for searching biomedical literature. Database (Oxford) 2011, 2011:baq036.
+1.	Lu Z: PubMed and beyond: a survey of web tools for searching biomedical literature. Database (Oxford) 2011, 2011:baq036.<br>
 <br>
-2.	Maltais LJ, Blake JA, Chu T, Lutz CM, Eppig JT, Jackson I: Rules and guidelines for mouse gene, allele, and mutation nomenclature: a condensed version. Genomics 2002, 79(4):471-474.
+2.	Maltais LJ, Blake JA, Chu T, Lutz CM, Eppig JT, Jackson I: Rules and guidelines for mouse gene, allele, and mutation nomenclature: a condensed version. Genomics 2002, 79(4):471-474.<br>
 <br>
-3.	Winter DJ: rentrez: An R package for the NCBI eUtils API. The R Journal 2017, 9:520-526.
+3.	Winter DJ: rentrez: An R package for the NCBI eUtils API. The R Journal 2017, 9:520-526.<br>
 <br>
-4.	Fatehi F, Gray LC, Wootton R: How to improve your PubMed/MEDLINE searches: 3. advanced searching, MeSH and My NCBI. J Telemed Telecare 2014, 20(2):102-112.
+4.	Fatehi F, Gray LC, Wootton R: How to improve your PubMed/MEDLINE searches: 3. advanced searching, MeSH and My NCBI. J Telemed Telecare 2014, 20(2):102-112.<br>
 <br>
-5.	Serrano Najera G, Narganes Carlon D, Crowther DJ: TrendyGenes, a computational pipeline for the detection of literature trends in academia and drug discovery. Sci Rep 2021, 11(1):15747.
+5.	Serrano Najera G, Narganes Carlon D, Crowther DJ: TrendyGenes, a computational pipeline for the detection of literature trends in academia and drug discovery. Sci Rep 2021, 11(1):15747.<br>
 <br>
-6.	von Mering C, Jensen LJ, Snel B, Hooper SD, Krupp M, Foglierini M, Jouffre N, Huynen MA, Bork P: STRING: known and predicted protein-protein associations, integrated and transferred across organisms. Nucleic Acids Res 2005, 33(Database issue):D433-437.
+6.	von Mering C, Jensen LJ, Snel B, Hooper SD, Krupp M, Foglierini M, Jouffre N, Huynen MA, Bork P: STRING: known and predicted protein-protein associations, integrated and transferred across organisms. Nucleic Acids Res 2005, 33(Database issue):D433-437.<br>
 <br>
-7.	Clarke DJB, Marino GB, Deng EZ, Xie Z, Evangelista JE, Ma'ayan A: Rummagene: massive mining of gene sets from supporting materials of biomedical research publications. Commun Biol 2024, 7(1):482.
+7.	Clarke DJB, Marino GB, Deng EZ, Xie Z, Evangelista JE, Ma'ayan A: Rummagene: massive mining of gene sets from supporting materials of biomedical research publications. Commun Biol 2024, 7(1):482.<br>
 <br>
-8.	Gene Ontology C, Aleksander SA, Balhoff J, Carbon S, Cherry JM, Drabkin HJ, Ebert D, Feuermann M, Gaudet P, Harris NL et al: The Gene Ontology knowledgebase in 2023. Genetics 2023, 224(1).
+8.	Gene Ontology C, Aleksander SA, Balhoff J, Carbon S, Cherry JM, Drabkin HJ, Ebert D, Feuermann M, Gaudet P, Harris NL et al: The Gene Ontology knowledgebase in 2023. Genetics 2023, 224(1).<br>
 <br>
-9.	Narganes-Carlon D, Crowther DJ, Pearson ER: A publication-wide association study (PWAS), historical language models to prioritise novel therapeutic drug targets. Sci Rep 2023, 13(1):8366.
+9.	Narganes-Carlon D, Crowther DJ, Pearson ER: A publication-wide association study (PWAS), historical language models to prioritise novel therapeutic drug targets. Sci Rep 2023, 13(1):8366.<br>
 <br>
-10.	Michael Ashburner CAB, Judith A. Blake, David Botstein, Heather Butler, J. Michael Cherry, Allan P. Davis, Kara Dolinski, Selina S. Dwight, Janan T. Eppig, Midori A. Harris, David P. Hill, Laurie Issel-Tarver, Andrew Kasarskis, Suzanna Lewis, John C. Matese, Joel E. Richardson, Martin Ringwald, Gerald M. Rubin & Gavin Sherlock Gene Ontology: tool for the unification of biology. Nature Genetics 2000, 25:25-29.
+10.	Michael Ashburner CAB, Judith A. Blake, David Botstein, Heather Butler, J. Michael Cherry, Allan P. Davis, Kara Dolinski, Selina S. Dwight, Janan T. Eppig, Midori A. Harris, David P. Hill, Laurie Issel-Tarver, Andrew Kasarskis, Suzanna Lewis, John C. Matese, Joel E. Richardson, Martin Ringwald, Gerald M. Rubin & Gavin Sherlock Gene Ontology: tool for the unification of biology. Nature Genetics 2000, 25:25-29.<br>
 <br>
-11.	Ambrosi TH, Scialdone A, Graja A, Gohlke S, Jank AM, Bocian C, Woelk L, Fan H, Logan DW, Schurmann A et al: Adipocyte Accumulation in the Bone Marrow during Obesity and Aging Impairs Stem Cell-Based Hematopoietic and Bone Regeneration. Cell Stem Cell 2017, 20(6):771-784 e776.
+11.	Ambrosi TH, Scialdone A, Graja A, Gohlke S, Jank AM, Bocian C, Woelk L, Fan H, Logan DW, Schurmann A et al: Adipocyte Accumulation in the Bone Marrow during Obesity and Aging Impairs Stem Cell-Based Hematopoietic and Bone Regeneration. Cell Stem Cell 2017, 20(6):771-784 e776.<br>
 <br>
 </p>
