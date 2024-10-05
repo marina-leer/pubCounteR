@@ -196,5 +196,7 @@ pub_activity_plot <- function(g_list, k_list, species="mouse",
 
   # display publication activity plot
   lin_log_barplot(countlist, "Number of publications")
+  
+  invisible(1)  # return 1 without printing
 }
 
