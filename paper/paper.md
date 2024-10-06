@@ -36,7 +36,7 @@ affiliations:
     index: 4
   - name: Institute of Nutritional Science, University of Potsdam, Potsdam-Rehbrücke, 14558 Nuthetal, Germany
     index: 5
-date: 30 September 2024
+date: 06 October 2024
 bibliography: paper.bib
 ---
 
