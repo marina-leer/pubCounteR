@@ -40,7 +40,6 @@ Installation of the development version from GitHub:
 if (!requireNamespace("devtools", quietly = TRUE)) {
     install.packages("devtools")}
 	
-install_github("marina-leer/GeSciLiVis")
 devtools::install_github("marina-leer/GeSciLiVis")
 ```
 
@@ -146,6 +145,10 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_2_human.png>
 </p>
 
+
+<p align="justify">
+summarizes the number of publications for each gene in an overview barplot, ranking genes from highest to lowest publication activity (Figure 1A), and a summary table in a comma separated value (CSV) format that includes the most recent 100 PMIDs and publication titles for each published article. 
+</p)
 
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
