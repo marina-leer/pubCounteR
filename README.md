@@ -147,8 +147,12 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
 
 
 <p align="justify">
-summarizes the number of publications for each gene in an overview barplot, ranking genes from highest to lowest publication activity (Figure 1A), and a summary table in a comma separated value (CSV) format that includes the most recent 100 PMIDs and publication titles for each published article. 
+Additionally this illustrative GeSciLiVis output plot is accomplanied by a summary table in a comma separated value (CSV) format that includes the most recent 100 PMIDs and publication titles for each published article.
+ 
+Figure of output csv 
+ 
 </p>
+
 
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
