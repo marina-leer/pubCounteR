@@ -159,13 +159,8 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
 </p>
 
 
-```
-Box made with Triple Backticks
-```
-
-~~~
-Box made with Triple Tildes
-~~~
+> One-Line Box made with Blockquote
+> One-Line Box made with Blockquote
 
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
