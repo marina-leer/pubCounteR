@@ -118,9 +118,6 @@ gene_list_mouse  = c("Cxcl12", "Fos", "Lect1", "Lepr", "Vcam1", "Fosb")
 
 pub_activity_plot(g_list = gene_list_mouse, k_list = keyword_list, species = "mouse", output_dir="output", use_preloaded_gene_names=TRUE)
 ```
-<p align="center">
-  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_1_mouse.png>
-</p>
 
 <p align="center">
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_1_1_output_mouse.png>
@@ -151,7 +148,7 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
 ```
 
 <p align="center">
-  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_2_human.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_2_1_output_human.png>
 </p>
 
 
