@@ -55,7 +55,7 @@ Depends:
 - R (>= 2.10)
 
 ### Usage
-```
+
 pub_activity_plot(
 g_list,
 k_list,
@@ -65,18 +65,17 @@ use_preloaded_gene_names=TRUE,
 show_progressbar = FALSE
 )
 
-```
 
 ### Parameters
 -  information on the purpose and values of all optional parameters
-```
+
 k_list: list of keywords ≤ 10 elements
 g_list: list of official gene symbols ≤ 30 elements
 species: selecting the species of interest, species="mouse" or species="human"
 output_dir: path to output directory to save resulting csv and png, NULL for not saving.
 use_preloaded_gene_names: boolean: whether to use preloaded gene names (TRUE) or load from biomaRt (FALSE)
 show_progressbar: boolean: whether to show progress bar
-```
+
 <br>
 
 ## Example
@@ -158,9 +157,6 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_2_2_output__human.PNG>
 </p>
 
-
-> One-Line Box made with Blockquote
-> One-Line Box made with Blockquote
 
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
