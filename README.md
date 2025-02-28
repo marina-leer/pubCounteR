@@ -118,21 +118,25 @@ gene_list_mouse  = c("Cxcl12", "Fos", "Lect1", "Lepr", "Vcam1", "Fosb")
 pub_activity_plot(g_list = gene_list_mouse, k_list = keyword_list, species = "mouse", output_dir="output", use_preloaded_gene_names=TRUE)
 ```
 
+<p align="justify">
+Performing the search will return a visualisation that shows the publication activity per gene for all instances of co-occurence per gene with one or more of the search terms. Per gene publication counts are displayed as a linear and logarithmic barchart, and ranked from high to low counts, as shown below for this example. 
+</p>
+
 <p align="center">
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_1_1_output_mouse.png>
 </p>
 
 
 <p align="justify">
-Once the search is complete, an output folder is created in the working directory. The output folder includes the visualisation plot
-as a png file. The folder also includes a csv file titled "publication_info_all.csv", which contains the top 100 most recent publications per gene by PubMedID and title, sorted by date from most to least recent.
+Once the search is complete, an output folder is created in the working directory, which includes the visualisation plot as a png file, and a csv file which contains the top 100 most recent publications per gene by PubMedID and title, sorted by date from most to least recent.
 </p>
 
 <p align="center">
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_1_2_output_mouse.PNG>
 </p>
 
-In the second example a set of human genes were used as input.
+
+Below, we can look at a second example, where a set of human genes were used as input.
 
 <br>
 <table class="tg">
