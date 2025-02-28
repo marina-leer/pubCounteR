@@ -130,7 +130,7 @@ as a png file. The folder also includes a csv file titled "publication_info_all.
 </p>
 
 <p align="center">
-  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_1_2_output_mouse.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_1_2_output_mouse.PNG>
 </p>
 
 In the second example a set of human genes were used as input.
