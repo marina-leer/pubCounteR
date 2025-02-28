@@ -123,8 +123,13 @@ pub_activity_plot(g_list = gene_list_mouse, k_list = keyword_list, species = "mo
 </p>
 
 
-In the second example a set of human genes were used as input.
+<p align="justify">
+Once the search is complete, an output folder is created in the working directory. The output folder includes the visualisation plot
+as a png file. The folder also includes a csv file titled "publication_info_all.csv", which contains the top 100 most recent publications per gene by PubMedID and title, sorted by date from most to least recent.
+</p>
 
+
+In the second example a set of human genes were used as input.
 
 <br>
 <table class="tg">
@@ -146,12 +151,7 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
 </p>
 
 
-<p align="justify">
-Additionally this illustrative GeSciLiVis output plot is accomplanied by a summary table in a comma separated value (CSV) format that includes the most recent 100 PMIDs and publication titles for each published article.
- 
-Figure of output csv 
- 
-</p>
+
 
 
 ## License
