@@ -158,8 +158,9 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_2_2_output__human.PNG>
 </p>
 
-
-
+---
+**NOTE**
+---
 
 ## License
 The GeSciLiVis software has a GPLv3 LICENSE.
