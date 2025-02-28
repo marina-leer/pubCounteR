@@ -122,6 +122,10 @@ pub_activity_plot(g_list = gene_list_mouse, k_list = keyword_list, species = "mo
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_1_mouse.png>
 </p>
 
+<p align="center">
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_1_1_output_mouse.png>
+</p>
+
 
 <p align="justify">
 Once the search is complete, an output folder is created in the working directory. The output folder includes the visualisation plot
