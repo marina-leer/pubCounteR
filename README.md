@@ -129,6 +129,9 @@ Once the search is complete, an output folder is created in the working director
 as a png file. The folder also includes a csv file titled "publication_info_all.csv", which contains the top 100 most recent publications per gene by PubMedID and title, sorted by date from most to least recent.
 </p>
 
+<p align="center">
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_1_2_output_mouse.png>
+</p>
 
 In the second example a set of human genes were used as input.
 
@@ -151,6 +154,9 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_2_1_output_human.png>
 </p>
 
+<p align="center">
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_2_2_output_human.png>
+</p>
 
 
 
