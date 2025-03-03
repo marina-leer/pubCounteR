@@ -135,8 +135,7 @@ Once the search is complete, an output folder is created in the working director
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/Example_1_2_output_mouse.PNG>
 </p>
 
-
-Below, we can look at a second example, where a set of human genes were used as input.
+In the second example a set of human genes were used as input.
 
 <br>
 <table class="tg">
