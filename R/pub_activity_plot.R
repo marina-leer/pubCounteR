@@ -37,7 +37,7 @@ lin_log_barplot <- function(countlist, title){
 #' species, to run a PubMed database search, and returns an annotated overview of a publication
 #' activity plot.
 #'
-#' @param g_list list of official gene symbols <= 30 elements.
+#' @param g_list list of official gene symbols <= 50 elements.
 #' @param k_list list of keywords <= 10 elements.
 #' @param species selecting the species of interest (species="mouse" or species="human").
 #' @param output_dir path to output directory to save resulting csv and png, NULL for not saving.
