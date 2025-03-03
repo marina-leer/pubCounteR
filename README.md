@@ -70,7 +70,7 @@ show_progressbar = FALSE
 -  information on the purpose and values of all optional parameters
 
 k_list: list of keywords ≤ 10 elements
-g_list: list of official gene symbols ≤ 30 elements
+g_list: list of official gene symbols ≤ 50 elements
 species: selecting the species of interest, species="mouse" or species="human"
 output_dir: path to output directory to save resulting csv and png, NULL for not saving.
 use_preloaded_gene_names: boolean: whether to use preloaded gene names (TRUE) or load from biomaRt (FALSE)
