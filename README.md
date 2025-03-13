@@ -8,6 +8,11 @@
 ![](https://tokei.rs/b1/github/marina-leer/GeSciLiVis)
 ![GitHub commits](https://img.shields.io/github/commit-activity/m/marina-leer/GeSciLiVis)
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
+[![](https://www.r-pkg.org/badges/version/GeSciLiVis?color=orange)](https://cran.r-project.org/package=GeSciLiVis)
+[![metacran downloads](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)
+![](https://tokei.rs/b1/github/marina-leer/GeSciLiVis)
+![GitHub commits](https://img.shields.io/github/commit-activity/m/marina-leer/pubCounteR)
 
 <p align="justify">
 The concept for an interface-based bioinformatical tool that can routinely and reliably perform multi-gene high-throughput, biological context-based literature database interrogation. The tool stems from the need to efficiently assess a large number of differentially expressed (DE) genes to allow rapid evaluation of targets for further research. GeSciLiVis thus enables a simultaneous screen for multiple genes of interest in Pubmed (www.PubMed.gov; Lu et al. 2011), and a quick but thorough overview of the related publication activity linking individual candidate genes and a customised research area or topic.<br>
