@@ -9,9 +9,9 @@
 ![GitHub commits](https://img.shields.io/github/commit-activity/m/marina-leer/GeSciLiVis)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
-[![](https://www.r-pkg.org/badges/version/GeSciLiVis?color=orange)](https://cran.r-project.org/package=GeSciLiVis)
-[![metacran downloads](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)
-![](https://tokei.rs/b1/github/marina-leer/GeSciLiVis)
+[![](https://www.r-pkg.org/badges/version/GeSciLiVis?color=orange)](https://cran.r-project.org/package=pubCounteR)
+[![metacran downloads](https://cranlogs.r-pkg.org/badges/grand-total/GeSciLiVis)](https://cranlogs.r-pkg.org/badges/grand-total/pubCounteR)
+![](https://tokei.rs/b1/github/marina-leer/pubCounteR)
 ![GitHub commits](https://img.shields.io/github/commit-activity/m/marina-leer/pubCounteR)
 
 <p align="justify">
