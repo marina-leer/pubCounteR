@@ -9,7 +9,7 @@
 ![GitHub commits](https://img.shields.io/github/commit-activity/m/marina-leer/pubCounteR)
 
 <p align="justify">
-The concept for an interface-based bioinformatical tool that can routinely and reliably perform multi-gene high-throughput, biological context-based literature database interrogation. The tool stems from the need to efficiently assess a large number of differentially expressed (DE) genes to allow rapid evaluation of targets for further research. GeSciLiVis thus enables a simultaneous screen for multiple genes of interest in Pubmed (www.PubMed.gov; Lu et al. 2011), and a quick but thorough overview of the related publication activity linking individual candidate genes and a customised research area or topic.<br>
+The concept for an interface-based bioinformatical tool that can routinely and reliably perform multi-gene high-throughput, biological context-based literature database interrogation. The tool stems from the need to efficiently assess a large number of differentially expressed (DE) genes to allow rapid evaluation of targets for further research. pubCounteR thus enables a simultaneous screen for multiple genes of interest in Pubmed (www.PubMed.gov; Lu et al. 2011), and a quick but thorough overview of the related publication activity linking individual candidate genes and a customised research area or topic.<br>
 <br>
 For a set of genes, using official gene symbols (Maltais et al. 2002) belonging to the human or murine genome, such as those derived from differential expression analysis in RNA-seq datasets, and a defined set of keywords that is biologically-driven and represents a specific area of research, the algorithm constructs a query separately for each gene, and uses the R-package rentrez (Winter, 2017) to access NCBI’s PubMed database (www.PubMed.gov; Lu et al. 2011) and its search functions. The returned hits, i.e. publications, are summarised for each gene separately and represented as a publication activity for as many as 50 genes. This will result in a barplot visualisation, that displays for every gene of interest the number of the detected publication activity, and exports the most recent individual 100 publications per gene in a csv file format.
 </p>
@@ -18,7 +18,7 @@ For a set of genes, using official gene symbols (Maltais et al. 2002) belonging 
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.png>
 </p>
 
-**Figure 1. Schematic overview of GeSciLiVis’ processing workflow.** GeSciLiVis runs a rentrez-query based on all sets of keywords/search terms and each gene entered in a gene list. The R-package then uses the access to NCBI’s PubMed database via a Representational State Transfer Application Programming Interface (REST API). Computing the summation over the publication activity, GeSciLiVis visualises for every gene of interest the number of detected publications, ranked by publication numbers in a bar plot.
+**Figure 1. Schematic overview of pubCounteR’ processing workflow.** pubCounteR runs a rentrez-query based on all sets of keywords/search terms and each gene entered in a gene list. The R-package then uses the access to NCBI’s PubMed database via a Representational State Transfer Application Programming Interface (REST API). Computing the summation over the publication activity, pubCounteR visualises for every gene of interest the number of detected publications, ranked by publication numbers in a bar plot.
 
 <p align="justify">
 Thus, we present a novel literature identification strategy that quickly surveys the published literature available research on entire gene lists, for individual genes, in conjunction with a specific biological interest. This allows investigators to identify gaps in knowledge through little-researched genes that could be putative novel targets for diverse biological fields of research, and to deliver an accurate overview and the most recent related work for any list of genes of interest. 
@@ -39,11 +39,11 @@ Installation of the development version from GitHub:
 if (!requireNamespace("devtools", quietly = TRUE)) {
     install.packages("devtools")}
 	
-devtools::install_github("marina-leer/GeSciLiVis")
+devtools::install_github("marina-leer/pubCounteR")
 ```
 
 ### Requirements
-GeSciLiVis requires the following external dependencies (R packages):
+pubCounteR requires the following external dependencies (R packages):
 - rentrez (>= 1.2.3)
 - biomaRt (>= 2.54.0)
 - biomartr (>= 1.0.2)
@@ -80,7 +80,7 @@ show_progressbar: boolean: whether to show progress bar
 ## Example
 
 ```r 
-library(GeSciLiVis)
+library(pubCounteR)
 ```
 
 <p align="justify">
@@ -161,7 +161,7 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
 
 
 ## License
-The GeSciLiVis software has a GPLv3 LICENSE.
+The pubCounteR software has a GPLv3 LICENSE.
 
 ## References
 <p align="justify">
