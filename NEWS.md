@@ -1,5 +1,9 @@
 # GeSciLiVis (development version)
 
+## Changes in version 1.3.0 (2025-13-14)
+Changed name from "GeSciLiVis" to "pubCounteR"
+Added new function: Heatmap visualisation
+
 ## Changes in version 1.2.0 (2023-10-31)
 Bugfixes: updated grDevices, graphics, utils dependencies
 
