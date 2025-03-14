@@ -1,6 +1,6 @@
 
-# Contributing to GeSciLiVis
-Thank you for using the GeSciLiVis package, we hope it enhances your gene research literature review, and helps you deal with all these long gene lists! Thanks also for considering a contribution – every improvement is much appreciated! The package is an open source package, which means users like you can help improve the GeSciLiVis experience. This document describes the conventions of the GeSciLiVis package, and outlines the procedure on how to propose a change to the package.
+# Contributing to pubCounteR
+Thank you for using the pubCounteR package, we hope it enhances your gene research literature review, and helps you deal with all these long gene lists! Thanks also for considering a contribution – every improvement is much appreciated! The package is an open source package, which means users like you can help improve the pubCounteR experience. This document describes the conventions of the pubCounteR package, and outlines the procedure on how to propose a change to the package.
 
 
 ## Minor changes (e.g. fixing typos)
@@ -9,7 +9,7 @@ You can fix typos, spelling mistakes, or grammatical errors in the documentation
 
 ## Substantial changes and proposing ideas
 If you would like to make a substantial change, you should first file an issue and make sure someone from the development team agrees that it’s needed. If you’ve found a bug, please file an issue that illustrates the bug with a reproducible example.
-We acknowledge a great potential for improving the functionalities of GeSciLiVis. If you have an idea for our new package, for example a new added feature that might improve output or functionality, please take a look at the documentation and issue list to see if it isn't included or suggested yet. If it isn’t, feel free to suggest your idea as an issue on GitHub. We promise to thoroughly review your idea or suggestion, and implement it if it helps improve the package!
+We acknowledge a great potential for improving the functionalities of pubCounteR. If you have an idea for our new package, for example a new added feature that might improve output or functionality, please take a look at the documentation and issue list to see if it isn't included or suggested yet. If it isn’t, feel free to suggest your idea as an issue on GitHub. We promise to thoroughly review your idea or suggestion, and implement it if it helps improve the package!
 
 
 ### Pull request process
@@ -27,9 +27,9 @@ Create pull request, the pull request should contain `Fixes #issue-number`
 
 
 ### Code review
-All pull requests must be reviewed by the core developer of GeSciLiVis. 
+All pull requests must be reviewed by the core developer of pubCounteR. 
 
 
 ## Code of conduct
-Please note that a Contributor Code of Conduct is included in the release of this package. This means that if you wish to contribute to this package, you agree to abide by the terms of the [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to GeSciLiVis you agree to abide by its terms.
+Please note that a Contributor Code of Conduct is included in the release of this package. This means that if you wish to contribute to this package, you agree to abide by the terms of the [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to pubCounteR you agree to abide by its terms.
 
