@@ -1,4 +1,4 @@
-# GeSciLiVis (development version)
+# pubCounteR (development version)
 
 ## Changes in version 1.3.0 (2025-13-14)
 Changed name from "GeSciLiVis" to "pubCounteR"
