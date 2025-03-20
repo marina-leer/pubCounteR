@@ -1,6 +1,6 @@
 # pubCounteR (development version)
 
-## Changes in version 1.3.0 (2025-13-14)
+## Changes in version 1.3.0 (2025-03-14)
 Changed name from "GeSciLiVis" to "pubCounteR"
 Added new function: Heatmap visualisation
 
