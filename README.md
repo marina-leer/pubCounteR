@@ -36,9 +36,6 @@ Presently, there is a lack of high-throughput literature survey methods or softw
 
 Installation of the development version from GitHub:
 ```r
-if (!requireNamespace("devtools", quietly = TRUE)) {
-    install.packages("devtools")}
-
 devtools::install_github("marina-leer/pubCounteR")
 ```
 
