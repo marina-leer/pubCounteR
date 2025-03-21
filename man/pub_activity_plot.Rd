@@ -13,7 +13,7 @@ show_progressbar = FALSE
 )
 }
 \arguments{
-\item{g_list}{list of official gene symbols <= 30 elements.}
+\item{g_list}{list of official gene symbols <= 50 elements.}
 
 \item{k_list}{list of keywords <= 10 elements.}
 

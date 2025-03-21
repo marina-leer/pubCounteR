@@ -10,4 +10,4 @@
 #'   \item{symbol}{official symbol by MGNC}
 #' }
 #' @source <http://www.ensembl.org/Mus_musculus/Info/Index>
-"mouse_official_gene_names"
+#' "mouse_official_gene_names"

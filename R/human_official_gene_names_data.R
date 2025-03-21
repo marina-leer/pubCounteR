@@ -10,4 +10,4 @@
 #'   \item{symbol}{official symbol by HGNC}
 #' }
 #' @source <https://www.ensembl.org/Homo_sapiens/Info/Index>
-"human_official_gene_names"
+#' "human_official_gene_names"
