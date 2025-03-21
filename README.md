@@ -111,7 +111,7 @@ In the first example a set of genes derived from mouse experiments were used.
 ```r
 gene_list_mouse  = c("Cxcl12", "Fos", "Lect1", "Lepr", "Vcam1", "Fosb")
 
-pub_activity_plot(g_list = gene_list_mouse, k_list = keyword_list, species = "mouse", output_dir="output", use_preloaded_gene_names=TRUE)
+pub_activity_plot(g_list = gene_list_mouse, k_list = keyword_list, species = "mouse", output_dir="output")
 ```
 
 <p align="justify">
@@ -145,7 +145,7 @@ In the second example a set of human genes were used as input.
 ```r
 gene_list_human = c("LEPR", "KITL", "OSMR", "IL1RN", "FGF2", "COL2A1")
 
-pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", use_preloaded_gene_names=TRUE)
+pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output")
 ```
 
 <p align="center">
