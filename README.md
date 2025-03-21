@@ -160,6 +160,13 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
 </p>
 
 
+## pubCounteR Interface
+
+<p align="center">
+  <img src=pubCounteR_Shiny_app.tiff>
+</p>
+
+
 ## License
 The pubCounteR software has a GPLv3 LICENSE.
 
