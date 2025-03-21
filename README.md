@@ -159,9 +159,9 @@ pub_activity_plot(gene_list_human, keyword_list, "human", output_dir="output", u
 </p>
 
 
-## pubCounteR Interface
+## Interface
 
-pubCounteR is made available also as web-based version implemented as a Shiny app (https://pubcounter.mpimp-golm.mpg.de/). The implementation as a web-based service provides easy-access and expanded functionality by linking out to the respective PubMed entries of the retrieved literature citations. The functionality and layout of the online pubCounteR interface, as outlined above, is shown in the following figure:
+pubCounteR is made available also as web-based version implemented as a Shiny app (https://pubcounter.mpimp-golm.mpg.de/). The implementation as a web-based service provides easy-access and expanded functionality by linking out to the respective PubMed entries of the retrieved literature citations. The functionality and layout of the online pubCounteR interface.
 
 <p align="center">
   <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/vignettes/pubCounteR_Shiny_app.png>
