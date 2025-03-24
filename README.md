@@ -171,26 +171,32 @@ The pubCounteR software has a GPLv3 LICENSE.
 
 ## References
 <p align="justify">
-1.	Lu Z: PubMed and beyond: a survey of web tools for searching biomedical literature. Database (Oxford) 2011, 2011:baq036.<br>
+1. Fatehi F, Gray LC, Wootton R. How to improve your PubMed/MEDLINE searches: 3. advanced searching, MeSH and My NCBI. J Telemed Telecare. 2014;20(2):102-12.<br>
 <br>
-2.	Maltais LJ, Blake JA, Chu T, Lutz CM, Eppig JT, Jackson I: Rules and guidelines for mouse gene, allele, and mutation nomenclature: a condensed version. Genomics 2002, 79(4):471-474.<br>
+2. Serrano Najera G, Narganes Carlon D, Crowther DJ. TrendyGenes, a computational pipeline for the detection of literature trends in academia and drug discovery. Sci Rep. 2021;11(1):15747.<br>
 <br>
-3.	Winter DJ: rentrez: An R package for the NCBI eUtils API. The R Journal 2017, 9:520-526.<br>
+3. von Mering C, Jensen LJ, Snel B, Hooper SD, Krupp M, Foglierini M, et al. STRING: known and predicted protein-protein associations, integrated and transferred across organisms. Nucleic Acids Res. 2005;33(Database issue):D433-7.<br>
 <br>
-4.	Fatehi F, Gray LC, Wootton R: How to improve your PubMed/MEDLINE searches: 3. advanced searching, MeSH and My NCBI. J Telemed Telecare 2014, 20(2):102-112.<br>
+4. Clarke DJB, Marino GB, Deng EZ, Xie Z, Evangelista JE, Ma'ayan A. Rummagene: massive mining of gene sets from supporting materials of biomedical research publications. Commun Biol. 2024;7(1):482.<br>
 <br>
-5.	Serrano Najera G, Narganes Carlon D, Crowther DJ: TrendyGenes, a computational pipeline for the detection of literature trends in academia and drug discovery. Sci Rep 2021, 11(1):15747.<br>
+5. Michael Ashburner CAB, Judith A. Blake, David Botstein, Heather Butler, J. Michael Cherry, Allan P. Davis, Kara Dolinski, Selina S. Dwight, Janan T. Eppig, Midori A. Harris, David P. Hill, Laurie Issel-Tarver, Andrew Kasarskis, Suzanna Lewis, John C. Matese, Joel E. Richardson, Martin Ringwald, Gerald M. Rubin & Gavin Sherlock Gene Ontology: tool for the unification of biology. Nature Genetics. 2000;25:25-9.<br>
 <br>
-6.	von Mering C, Jensen LJ, Snel B, Hooper SD, Krupp M, Foglierini M, Jouffre N, Huynen MA, Bork P: STRING: known and predicted protein-protein associations, integrated and transferred across organisms. Nucleic Acids Res 2005, 33(Database issue):D433-437.<br>
+6. Gene Ontology C, Aleksander SA, Balhoff J, Carbon S, Cherry JM, Drabkin HJ, et al. The Gene Ontology knowledgebase in 2023. Genetics. 2023;224(1).<br>
 <br>
-7.	Clarke DJB, Marino GB, Deng EZ, Xie Z, Evangelista JE, Ma'ayan A: Rummagene: massive mining of gene sets from supporting materials of biomedical research publications. Commun Biol 2024, 7(1):482.<br>
+7. Narganes-Carlon D, Crowther DJ, Pearson ER. A publication-wide association study (PWAS), historical language models to prioritise novel therapeutic drug targets. Sci Rep. 2023;13(1):8366.<br>
 <br>
-8.	Gene Ontology C, Aleksander SA, Balhoff J, Carbon S, Cherry JM, Drabkin HJ, Ebert D, Feuermann M, Gaudet P, Harris NL et al: The Gene Ontology knowledgebase in 2023. Genetics 2023, 224(1).<br>
+8. Maltais LJ, Blake JA, Chu T, Lutz CM, Eppig JT, Jackson I. Rules and guidelines for mouse gene, allele, and mutation nomenclature: a condensed version. Genomics. 2002;79(4):471-4.<br>
 <br>
-9.	Narganes-Carlon D, Crowther DJ, Pearson ER: A publication-wide association study (PWAS), historical language models to prioritise novel therapeutic drug targets. Sci Rep 2023, 13(1):8366.<br>
+9. Winter DJ. rentrez: An R package for the NCBI eUtils API. The R Journal. 2017;9:520-6.<br>
 <br>
-10.	Michael Ashburner CAB, Judith A. Blake, David Botstein, Heather Butler, J. Michael Cherry, Allan P. Davis, Kara Dolinski, Selina S. Dwight, Janan T. Eppig, Midori A. Harris, David P. Hill, Laurie Issel-Tarver, Andrew Kasarskis, Suzanna Lewis, John C. Matese, Joel E. Richardson, Martin Ringwald, Gerald M. Rubin & Gavin Sherlock Gene Ontology: tool for the unification of biology. Nature Genetics 2000, 25:25-29.<br>
+10. Sayers EW, Bolton EE, Brister JR, Canese K, Chan J, Comeau DC, et al. Database resources of the National Center for Biotechnology Information in 2023. Nucleic Acids Res. 2023;51(D1):D29-D38.<br>
 <br>
-11.	Ambrosi TH, Scialdone A, Graja A, Gohlke S, Jank AM, Bocian C, Woelk L, Fan H, Logan DW, Schurmann A et al: Adipocyte Accumulation in the Bone Marrow during Obesity and Aging Impairs Stem Cell-Based Hematopoietic and Bone Regeneration. Cell Stem Cell 2017, 20(6):771-784 e776.<br>
+11. Maglott D, Ostell J, Pruitt KD, Tatusova T. Entrez Gene: gene-centered information at NCBI. Nucleic Acids Res. 2011;39(Database issue):D52-7.<br>
+<br>
+12. O'Leary NA, Wright MW, Brister JR, Ciufo S, Haddad D, McVeigh R, et al. Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic Acids Res. 2016;44(D1):D733-45.<br>
+<br>
+13. Ambrosi TH, Scialdone A, Graja A, Gohlke S, Jank AM, Bocian C, et al. Adipocyte Accumulation in the Bone Marrow during Obesity and Aging Impairs Stem Cell-Based Hematopoietic and Bone Regeneration. Cell Stem Cell. 2017;20(6):771-84 e6.<br>
+<br>
+14. Hu, Y., Chung, V. Comjean, A. Rodiger, J. Nipun, F. Perrimon, N. Mohr, S. E. BioLitMine: Advanced Mining of Biomedical and Biological Literature About Human Genes and Genes from Major Model Organisms. G3 (Bethesda), 2020;10(12):4531-4539.<br>
 <br>
 </p>
