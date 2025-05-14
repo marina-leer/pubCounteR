@@ -10,7 +10,7 @@
 
 
 
-Test [DOI](https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2025.1523184/full)
+Leer, M., Soultoukis, G. A., Jähnert, M., Oveisi, M., Walther, D., & Schulz, T. J. pubCounteR: an R package for interrogating published literature for experimentally-derived gene lists within a user-defined biological context. Frontiers in Bioinformatics, 5, 1523184.[DOI](https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2025.1523184/full)
 <br>
 
 <p align="justify">
