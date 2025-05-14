@@ -8,6 +8,11 @@
 ![](https://tokei.rs/b1/github/marina-leer/pubCounteR)
 ![GitHub commits](https://img.shields.io/github/commit-activity/m/marina-leer/pubCounteR)
 
+<br>
+[DOI](https://doi.org/10.3389/fbinf.2025.1523184).
+
+<br>
+
 <p align="justify">
 The concept for an interface-based bioinformatical tool that can routinely and reliably perform multi-gene high-throughput, biological context-based literature database interrogation. The tool stems from the need to efficiently assess a large number of differentially expressed (DE) genes to allow rapid evaluation of targets for further research. pubCounteR thus enables a simultaneous screen for multiple genes of interest in Pubmed (www.PubMed.gov; Lu et al. 2011), and a quick but thorough overview of the related publication activity linking individual candidate genes and a customised research area or topic.<br>
 <br>
