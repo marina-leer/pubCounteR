@@ -9,8 +9,7 @@
 ![GitHub commits](https://img.shields.io/github/commit-activity/m/marina-leer/pubCounteR)
 
 <br>
-[DOI](https://doi.org/10.3389/fbinf.2025.1523184).
-
+https://doi.org/10.3389/fbinf.2025.1523184.
 <br>
 
 <p align="justify">
