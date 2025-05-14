@@ -15,7 +15,7 @@ For a set of genes, using official gene symbols (Maltais et al. 2002) belonging 
 </p>
 
 <p align="center">
-  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1a.png>
+  <img src=https://github.com/marina-leer/GeSciLiVis/blob/main/figures/Picture1.png>
 </p>
 
 **Figure 1. Schematic overview of pubCounteR’ processing workflow.** pubCounteR runs a rentrez-query based on all sets of keywords/search terms and each gene entered in a gene list. The R-package then uses the access to NCBI’s PubMed database via a Representational State Transfer Application Programming Interface (REST API). Computing the summation over the publication activity, pubCounteR visualises for every gene of interest the number of detected publications, ranked by publication numbers in a bar plot.
