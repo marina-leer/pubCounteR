@@ -8,8 +8,9 @@
 ![](https://tokei.rs/b1/github/marina-leer/pubCounteR)
 ![GitHub commits](https://img.shields.io/github/commit-activity/m/marina-leer/pubCounteR)
 
-<br>
-https://doi.org/10.3389/fbinf.2025.1523184.
+
+
+Test [DOI](https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2025.1523184/full)
 <br>
 
 <p align="justify">
